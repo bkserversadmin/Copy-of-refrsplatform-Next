@@ -17,6 +17,7 @@ const Enriquepage = (props) => {
           enctype="application/x-www-form-urlencoded"
           className="enriquepage-form"
         >
+          <h1>Hola un cambio</h1>
           <input
             type="email"
             target="email"
@@ -51,6 +52,7 @@ const Enriquepage = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            justify-content: center;
           }
           .enriquepage-form {
             width: 999px;
