@@ -1,0 +1,412 @@
+.my-games-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.my-games-mygames-assigned-games-listview {
+  width: 100%;
+  height: 1121px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: var(--dl-color-grey-grey200);
+}
+.my-games-container1 {
+  gap: 40px;
+  top: 48px;
+  left: 0px;
+  right: 0px;
+  width: 1170px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.my-games-container2 {
+  flex: initial;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my-games-frame5988 {
+  gap: 24px;
+  width: 432px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.my-games-text {
+  color: var(--dl-color-grey-grey800);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-container3 {
+  flex: 0 0 auto;
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.my-games-select {
+  height: 44px;
+  padding-top: 10px;
+  border-color: #7a7a7a;
+  border-width: 2px;
+  padding-left: 8px;
+  border-radius: 0px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.my-games-button {
+  gap: 12px;
+  cursor: pointer;
+  display: flex;
+  padding: 14px 24px;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color: var(--dl-color-yellow-yellow400);
+}
+.my-games-button:hover {
+  background-color: var(--dl-color-yellow-yellow300);
+}
+.my-games-icon {
+  width: 16px;
+  height: 16px;
+}
+.my-games-text01 {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.my-games-search {
+  gap: 12px;
+  width: 1170px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.my-games-text03 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-search-fields {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.my-games-textinput {
+  color: #a3a3a3;
+  height: 44px;
+  font-size: 14px;
+  padding-top: 10px;
+  border-width: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.my-games-select1 {
+  color: #A3A3A3;
+  width: 170px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.my-games-select2 {
+  color: #A3A3A3;
+  width: 150px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.my-games-select3 {
+  color: #A3A3A3;
+  width: auto;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.my-games-select4 {
+  color: #A3A3A3;
+  width: auto;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.my-games-compensation-range {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.my-games-text05 {
+  color: rgba(100, 100, 100, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-range-tracker {
+  width: 265px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.my-games-tracker-line {
+  gap: 3px;
+  top: 0px;
+  left: 0px;
+  width: 265px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.my-games-text07 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.60;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-group10 {
+  width: 255px;
+  height: 0.3125px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+}
+.my-games-group101 {
+  width: 255px;
+  height: 0.3125px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: #f6c513;
+  border-style: solid;
+  border-width: 2px;
+}
+.my-games-text08 {
+  top: 17px;
+  left: 108.42950439453125px;
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-games-frame6020 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.my-games-text10 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame6019 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.my-games-games-list-header {
+  width: 1170px;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.my-games-frame115 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 0;
+  flex-grow: 1;
+  align-items: center;
+}
+.my-games-text12 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame116 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 56px;
+  align-items: center;
+  justify-content: center;
+}
+.my-games-text14 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame121 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 60px;
+  align-items: center;
+  justify-content: center;
+}
+.my-games-text16 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame117 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 56px;
+  align-items: center;
+  justify-content: center;
+}
+.my-games-text18 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame40 {
+  gap: 8px;
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  justify-content: center;
+}
+.my-games-text20 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame118 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.my-games-text22 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-frame120 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.my-games-text24 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.my-games-games-list {
+  gap: 4px;
+  width: 1170px;
+  height: 590px;
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.my-games-games-list-inner {
+  gap: 8px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  overflow-y: scroll;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.my-games-container4 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

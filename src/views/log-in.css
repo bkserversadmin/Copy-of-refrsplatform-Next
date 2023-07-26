@@ -1,0 +1,215 @@
+.log-in-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.log-in-log-in {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-white);
+}
+.log-in-rectangle1 {
+  top: 72px;
+  left: 0px;
+  width: 100%;
+  height: 952px;
+  position: absolute;
+}
+.log-in-general-access-form {
+  gap: 32px;
+  top: 249px;
+  left: 0px;
+  right: 0px;
+  width: 470px;
+  margin: auto;
+  display: flex;
+  padding: 32px;
+  position: absolute;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-white);
+}
+.log-in-frame5964 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.log-in-text {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.log-in-text02 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.log-in-form {
+  gap: 24px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.log-in-frame9 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.log-in-general-text-field {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.log-in-label-container {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.log-in-text04 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.log-in-general-text-field1 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.log-in-label-container1 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.log-in-text06 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.log-in-frame5967 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+.log-in-text08 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.log-in-text10 {
+  color: var(--dl-color-yellow-yellow600);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.log-in-button {
+  gap: 12px;
+  cursor: pointer;
+  display: flex;
+  padding: 14px 24px;
+  align-self: stretch;
+  transition: 0.3s;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-yellow-yellow400);
+}
+.log-in-button:hover {
+  background-color: #fbe289;
+}
+.log-in-text12 {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  font-weight: 500;
+  line-height: 16px;
+}
+.log-in-frame12 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+.log-in-text13 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.log-in-text15 {
+  color: var(--dl-color-yellow-yellow600);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.log-in-frame6104 {
+  gap: 69px;
+  top: 989px;
+  left: 485px;
+  width: 470px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.log-in-text17 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.log-in-frame59641 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.log-in-text19 {
+  color: var(--dl-color-yellow-yellow600);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.log-in-text20 {
+  color: var(--dl-color-yellow-yellow600);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}

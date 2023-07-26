@@ -1,0 +1,194 @@
+.set-availability-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: 475px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.set-availability-set-availability-modal {
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 24px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: flex-end;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.set-availability-content-container {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.set-availability-text02 {
+  color: var(--dl-color-grey-grey800);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.set-availability-date-range-section {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.set-availability-text04 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.set-availability-from-container {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.set-availability-text-field-horizontal {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.set-availability-label-container {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.set-availability-textinput {
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.set-availability-text-field-horizontal1 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.set-availability-label-container1 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.set-availability-text07 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.set-availability-textinput1 {
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.set-availability-to-container {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.set-availability-text-field-horizontal2 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.set-availability-label-container2 {
+  gap: 10px;
+  width: 34px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.set-availability-text09 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: normal;
+}
+.set-availability-textinput2 {
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.set-availability-text-field-horizontal3 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.set-availability-label-container3 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.set-availability-text11 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.set-availability-textinput3 {
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.set-availability-set-recurring-section {
+  gap: 16px;
+  width: 379px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.set-availability-text13 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 14px;
+}
+.set-availability-button {
+  gap: 12px;
+  color: var(--dl-color-yellow-yellow900);
+  display: flex;
+  padding: 14px 24px;
+  align-items: flex-start;
+  border-width: 0px;
+  border-radius: 100px;
+  background-color: var(--dl-color-yellow-yellow400);
+}
+.set-availability-text15 {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}

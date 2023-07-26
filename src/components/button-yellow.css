@@ -1,0 +1,70 @@
+.button-yellow-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.button-yellow-primary-text {
+  color: var(--dl-color-yellow-yellow900);
+}
+.button-yellow-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.button-yellow-tonal-text {
+  color: var(--dl-color-yellow-yellow900);
+}
+.button-yellow-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.button-yellow-outlined-text {
+  color: var(--dl-color-yellow-yellow800);
+}
+.button-yellow-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.button-yellow-only-text {
+  color: var(--dl-color-yellow-yellow800);
+}
+.button-yellow-root-class-name {
+  width: auto;
+  height: auto;
+}
+.button-yellow-root-class-name1 {
+  width: auto;
+}
+.button-yellow-root-class-name2 {
+  width: auto;
+  height: auto;
+}
+.button-yellow-root-class-name3 {
+  width: auto;
+}
+.button-yellow-root-class-name4 {
+  width: auto;
+}
+.button-yellow-root-class-name5 {
+  width: auto;
+}
+.button-yellow-root-class-name6 {
+  width: auto;
+}
+.button-yellow-root-class-name8 {
+  width: 140px;
+}
+.button-yellow-root-class-name9 {
+  width: 140px;
+}
+

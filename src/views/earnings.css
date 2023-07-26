@@ -1,0 +1,1700 @@
+.earnings-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.earnings-earnings {
+  width: 100%;
+  height: 1122px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: var(--dl-color-grey-grey200);
+}
+.earnings-text {
+  top: 123px;
+  left: 135px;
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-frame6064 {
+  gap: 16px;
+  top: 508px;
+  left: 135px;
+  width: 570px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.earnings-text002 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-frame6063 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.earnings-weeks-resume-list-item {
+  gap: 16px;
+  display: flex;
+  padding: 24px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.earnings-frame6062 {
+  gap: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.earnings-text004 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-frame6071 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-text006 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  line-height: 16px;
+}
+.earnings-text008 {
+  color: var(--dl-color-yellow-yellow800);
+  width: 80px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-weeks-resume-list-item1 {
+  gap: 16px;
+  display: flex;
+  padding: 24px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.earnings-frame60621 {
+  gap: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.earnings-text010 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-frame60711 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-text012 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  line-height: 16px;
+}
+.earnings-text014 {
+  color: var(--dl-color-yellow-yellow800);
+  width: 80px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-weeks-resume-list-item2 {
+  gap: 16px;
+  display: flex;
+  padding: 24px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.earnings-frame60622 {
+  gap: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.earnings-text016 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-frame60712 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-text018 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  line-height: 16px;
+}
+.earnings-text020 {
+  color: var(--dl-color-yellow-yellow800);
+  width: 80px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame60713 {
+  gap: 16px;
+  top: 186px;
+  left: 736px;
+  width: 569px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earnings-text022 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-earnings-chart {
+  gap: 24px;
+  display: flex;
+  padding: 25.466663360595703px;
+  align-items: center;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1.050370454788208px;
+  border-radius: 16.9777774810791px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.earnings-viz41 {
+  width: 518px;
+  height: 189px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.earnings-backgorund {
+  top: 0px;
+  left: 0px;
+  width: 518px;
+  height: 189px;
+  position: absolute;
+}
+.earnings-viz {
+  top: 13.699999809265137px;
+  left: 22px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group {
+  top: 0px;
+  left: 0px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group01 {
+  top: 0px;
+  left: 0px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group02 {
+  top: 12.81874942779541px;
+  left: 32.953983306884766px;
+  width: 448.092041015625px;
+  height: 142.4812469482422px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-undefined-amount {
+  top: 40.97500228881836px;
+  left: 0px;
+  width: 85px;
+  height: 102px;
+  position: absolute;
+}
+.earnings-text024 {
+  top: 47.0146484375px;
+  left: 21.579345703125px;
+  color: var(--dl-color-bluegreen-bluegreen800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount01 {
+  top: 4.65625px;
+  left: 90.57938385009766px;
+  width: 85px;
+  height: 138px;
+  position: absolute;
+}
+.earnings-text026 {
+  top: 10.0146484375px;
+  left: 113.579345703125px;
+  color: var(--dl-color-bluegreen-bluegreen800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount02 {
+  top: 0px;
+  left: 181.579345703125px;
+  width: 85px;
+  height: 142px;
+  position: absolute;
+}
+.earnings-undefined-amount03 {
+  top: 31.0146484375px;
+  left: 272.579345703125px;
+  width: 85px;
+  height: 111px;
+  position: absolute;
+}
+.earnings-undefined-amount04 {
+  top: 3.0146484375px;
+  left: 362.579345703125px;
+  width: 85px;
+  height: 139px;
+  position: absolute;
+}
+.earnings-undefined-amount05 {
+  top: 142.4812469482422px;
+  left: 272.4207763671875px;
+  width: 85px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text028 {
+  top: 6.0146484375px;
+  left: 204.579345703125px;
+  color: var(--dl-color-bluegreen-bluegreen800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-text030 {
+  top: 37.0146484375px;
+  left: 294.579345703125px;
+  color: var(--dl-color-bluegreen-bluegreen800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount06 {
+  top: 142.4812469482422px;
+  left: 363.22772216796875px;
+  width: 85px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text032 {
+  top: 9.0146484375px;
+  left: 384.579345703125px;
+  color: var(--dl-color-bluegreen-bluegreen800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-x-axis {
+  top: 155.3000030517578px;
+  left: 28.5px;
+  width: 458px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector {
+  top: 0.5px;
+  left: 0px;
+  width: 458px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-group03 {
+  top: 0px;
+  left: 11.886146545410156px;
+  width: 70px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector01 {
+  top: 0px;
+  left: 35px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text034 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group04 {
+  top: 0px;
+  left: 101.19306945800781px;
+  width: 73px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector02 {
+  top: 0px;
+  left: 36.5px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text036 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group05 {
+  top: 0px;
+  left: 188.5px;
+  width: 80px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector03 {
+  top: 0px;
+  left: 40px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text038 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group06 {
+  top: 0px;
+  left: 279.8069152832031px;
+  width: 79px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector04 {
+  top: 0px;
+  left: 39.5px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text040 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group07 {
+  top: 0px;
+  left: 374.1138610839844px;
+  width: 72px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector05 {
+  top: 0px;
+  left: 36px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text042 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-y-axis {
+  top: 0px;
+  left: 0px;
+  width: 28.5px;
+  height: 161px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector06 {
+  top: 6.800000190734863px;
+  left: 28.5px;
+  width: 0px;
+  height: 149px;
+  position: absolute;
+}
+.earnings-group08 {
+  top: 149px;
+  left: 12px;
+  width: 16px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector07 {
+  top: 6.800000190734863px;
+  left: 10px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text044 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group09 {
+  top: 130.375px;
+  left: 1px;
+  width: 27px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector08 {
+  top: 6.800000190734863px;
+  left: 21px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text045 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group10 {
+  top: 111.75px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector09 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text047 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group11 {
+  top: 93.125px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector10 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text049 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group12 {
+  top: 74.5px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector11 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text051 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group13 {
+  top: 55.875px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector12 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text053 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group14 {
+  top: 37.25px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector13 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text055 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group15 {
+  top: 18.625px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector14 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text057 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group16 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector15 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text059 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame6092 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-frame6089 {
+  gap: 6px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-rectangle15 {
+  width: 12px;
+  height: 12px;
+}
+.earnings-text061 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame6090 {
+  gap: 6px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-rectangle151 {
+  width: 12px;
+  height: 12px;
+}
+.earnings-text063 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame6035 {
+  gap: 16px;
+  top: 508px;
+  left: 735px;
+  width: 569px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earnings-text065 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-earnings-chart1 {
+  gap: 24px;
+  display: flex;
+  padding: 25.466663360595703px;
+  align-items: center;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1.050370454788208px;
+  border-radius: 16.9777774810791px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.earnings-viz411 {
+  width: 518px;
+  height: 189px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.earnings-backgorund1 {
+  top: 0px;
+  left: 0px;
+  width: 518px;
+  height: 189px;
+  position: absolute;
+}
+.earnings-viz1 {
+  top: 13.699999809265137px;
+  left: 22px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group17 {
+  top: 0px;
+  left: 0px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group18 {
+  top: 0px;
+  left: 0px;
+  width: 486.5px;
+  height: 173.39999389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-group19 {
+  top: 12.81874942779541px;
+  left: 32.953983306884766px;
+  width: 448.092041015625px;
+  height: 142.4812469482422px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-undefined-amount07 {
+  top: 40.97500228881836px;
+  left: 0px;
+  width: 85px;
+  height: 102px;
+  position: absolute;
+}
+.earnings-text067 {
+  top: 47.0146484375px;
+  left: 21.579345703125px;
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount08 {
+  top: 4.65625px;
+  left: 90.57938385009766px;
+  width: 85px;
+  height: 138px;
+  position: absolute;
+}
+.earnings-text069 {
+  top: 10.0146484375px;
+  left: 113.579345703125px;
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount09 {
+  top: 0px;
+  left: 181.579345703125px;
+  width: 85px;
+  height: 142px;
+  position: absolute;
+}
+.earnings-undefined-amount10 {
+  top: 31.0146484375px;
+  left: 272.579345703125px;
+  width: 85px;
+  height: 111px;
+  position: absolute;
+}
+.earnings-undefined-amount11 {
+  top: 3.0146484375px;
+  left: 362.579345703125px;
+  width: 85px;
+  height: 139px;
+  position: absolute;
+}
+.earnings-undefined-amount12 {
+  top: 142.4812469482422px;
+  left: 272.4207763671875px;
+  width: 85px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text071 {
+  top: 6.0146484375px;
+  left: 204.579345703125px;
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-text073 {
+  top: 37.0146484375px;
+  left: 294.579345703125px;
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-undefined-amount13 {
+  top: 142.4812469482422px;
+  left: 363.22772216796875px;
+  width: 85px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text075 {
+  top: 9.0146484375px;
+  left: 384.579345703125px;
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-x-axis1 {
+  top: 155.3000030517578px;
+  left: 28.5px;
+  width: 458px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector16 {
+  top: 0.5px;
+  left: 0px;
+  width: 458px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-group20 {
+  top: 0px;
+  left: 12.886146545410156px;
+  width: 68px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector17 {
+  top: 0px;
+  left: 34px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text077 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group21 {
+  top: 0px;
+  left: 102.19306945800781px;
+  width: 70px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector18 {
+  top: 0px;
+  left: 35.5px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text079 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group22 {
+  top: 0px;
+  left: 194.5px;
+  width: 69px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector19 {
+  top: 0px;
+  left: 34px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text081 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group23 {
+  top: 0px;
+  left: 275.8069152832031px;
+  width: 87px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector20 {
+  top: 0px;
+  left: 43.5px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text083 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group24 {
+  top: 0px;
+  left: 382.1138610839844px;
+  width: 56px;
+  height: 18.100000381469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector21 {
+  top: 0px;
+  left: 28px;
+  width: 0px;
+  height: 6px;
+  position: absolute;
+}
+.earnings-text085 {
+  top: 6.099999904632568px;
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-y-axis1 {
+  top: 0px;
+  left: 0px;
+  width: 28.5px;
+  height: 161px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector22 {
+  top: 6.800000190734863px;
+  left: 28.5px;
+  width: 0px;
+  height: 149px;
+  position: absolute;
+}
+.earnings-group25 {
+  top: 149px;
+  left: 12px;
+  width: 16px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector23 {
+  top: 6.800000190734863px;
+  left: 10px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text087 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group26 {
+  top: 130.375px;
+  left: 1px;
+  width: 27px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector24 {
+  top: 6.800000190734863px;
+  left: 21px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text088 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group27 {
+  top: 111.75px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector25 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text090 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group28 {
+  top: 93.125px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector26 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text092 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group29 {
+  top: 74.5px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector27 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text094 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group30 {
+  top: 55.875px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector28 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text096 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group31 {
+  top: 37.25px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector29 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text098 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group32 {
+  top: 18.625px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector30 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text100 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-group33 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.earnings-vector31 {
+  top: 6.800000190734863px;
+  left: 22px;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+}
+.earnings-text102 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame60921 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-frame6091 {
+  gap: 6px;
+  display: flex;
+  align-items: flex-start;
+}
+.earnings-rectangle152 {
+  width: 12px;
+  height: 12px;
+}
+.earnings-text104 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-frame6108 {
+  gap: 16px;
+  top: 186px;
+  left: 135px;
+  width: 571px;
+  height: 307px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.earnings-text106 {
+  color: var(--dl-color-grey-grey500);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-earnings-indicators {
+  gap: 32px;
+  height: 276px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.earnings-frame6070 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earnings-text108 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-text110 {
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.earnings-text112 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-frame6061 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.earnings-button {
+  gap: 10px;
+  display: flex;
+  padding: 14px 24px;
+  align-items: flex-start;
+  border-radius: 100px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.earnings-text114 {
+  color: var(--dl-color-grey-grey800);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.earnings-text116 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: normal;
+}
