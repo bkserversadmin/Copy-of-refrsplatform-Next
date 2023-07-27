@@ -16,7 +16,7 @@ const SOProfile = (props) => {
       <NavBar rootClassName="nav-bar-root-class-name13"></NavBar>
       <div className="container">
         <div className="inner-container">
-          <div className="resumeSection">
+          <div className="s-profile-resume-section resumeSection">
             <div className="about-container">
               <div className="avatar-container">
                 <img
@@ -35,13 +35,11 @@ const SOProfile = (props) => {
                 </span>
               </div>
             </div>
-            <div className="s-profile-frame126">
-              <div className="s-profile-frame42">
-                <span className="s-profile-text2 Body3">
-                  Total created games
-                </span>
-                <span className="s-profile-text3 Headine1">14</span>
-              </div>
+            <div className="s-profile-games-created-container gamesCreatedContainer">
+              <span className="s-profile-text2 OverlineS overlineS Body3">
+                Total created games
+              </span>
+              <span className="Headine1 highliteAmount">14</span>
             </div>
           </div>
           <SOProfileInfo></SOProfileInfo>

@@ -351,6 +351,39 @@
 
 
 
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .game-item-root-class-name15 {
+    width: 100%;
+  }
+  .game-item-root-class-name16 {
+    width: 100%;
+  }
+  .game-item-root-class-name17 {
+    width: 100%;
+  }
+  .game-item-root-class-name18 {
+    width: 100%;
+  }
+  .game-item-root-class-name19 {
+    width: 100%;
+  }
+  .game-item-root-class-name20 {
+    width: 100%;
+  }
+  .game-item-root-class-name21 {
+    width: 100%;
+  }
+  .game-item-root-class-name22 {
+    width: 100%;
+  }
+}
 @media(max-width: 767px) {
   .game-item-normal {
     gap: var(--dl-space-space-twounits);

@@ -463,3 +463,21 @@
   font-stretch: normal;
   text-decoration: none;
 }
+@media(max-width: 991px) {
+  .s-dashboard-content-container {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .s-dashboard-lists-container {
+    flex-direction: column;
+  }
+  .s-dashboard-game-list-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .s-dashboard-game-list-inner1 {
+    max-width: 100%;
+  }
+}

@@ -14,11 +14,13 @@ import SOProfile from './views/s-profile'
 import SODashboard from './views/s-dashboard'
 import SOPaymentInformation from './views/s-payment-information'
 import SOWithoutPairedResults from './views/s-without-paired-results'
+import ASProfile from './views/a-profile'
 import SOAssignors from './views/s-assignors'
 import Enriquepage from './views/enriquepage'
 import Profile from './views/profile'
 import Earnings from './views/earnings'
 import Register from './views/register'
+import ASMyGames from './views/a-my-games'
 
 const App = () => {
   return (
@@ -47,11 +49,13 @@ const App = () => {
           exact
           path="/s-without-paired-results"
         />
+        <Route component={ASProfile} exact path="/a-profile" />
         <Route component={SOAssignors} exact path="/s-assignors" />
         <Route component={Enriquepage} exact path="/enriquepage" />
         <Route component={Profile} exact path="/profile" />
         <Route component={Earnings} exact path="/earnings" />
         <Route component={Register} exact path="/register" />
+        <Route component={ASMyGames} exact path="/a-my-games" />
       </div>
     </Router>
   )

@@ -17,24 +17,24 @@ const SOWithoutPairedAssignor = (props) => {
       </Helmet>
       <div className="s-without-paired-assignor-withoutpairedassignor">
         <NavBar rootClassName="nav-bar-root-class-name7"></NavBar>
-        <div className="s-without-paired-assignor-content-container">
-          <div className="s-without-paired-assignor-top-container">
-            <div className="s-without-paired-assignor-header-container">
-              <span className="s-without-paired-assignor-pair-a-new-assignor Headine1">
+        <div className="pairAssignorsContainer">
+          <div className="pairFirstRow">
+            <div className="headerContainer">
+              <span className="s-without-paired-assignor-pair-a-new-assignor Headine1 page-title">
                 <span>Pair a new assignor</span>
               </span>
-              <span className="s-without-paired-assignor-subtitle Caption">
+              <span className="s-without-paired-assignor-subtitle Subtitle1 subtitle-1 Caption">
                 <span>
                   Search and pair an assignor with your sport organization
                 </span>
               </span>
             </div>
-            <div className="s-without-paired-assignor-search">
-              <span className="s-without-paired-assignor-text2 OverlineL">
+            <div className="searchFieldsContainer">
+              <span className="s-without-paired-assignor-text2 OverlineL overlineL">
                 <span>search assignors</span>
               </span>
-              <div className="s-without-paired-assignor-search-fields">
-                <div className="s-without-paired-assignor-search-bar">
+              <div className="s-without-paired-assignor-search-fields searchFields">
+                <div className="s-without-paired-assignor-search-bar searchBar">
                   <img
                     alt="IconI481"
                     src="/external/iconi481-3g1i.svg"
@@ -46,7 +46,7 @@ const SOWithoutPairedAssignor = (props) => {
                     className="s-without-paired-assignor-textinput input"
                   />
                 </div>
-                <select className="s-without-paired-assignor-select">
+                <select className="s-without-paired-assignor-select sportFilter">
                   <option value="Sport" selected>
                     Sport
                   </option>
@@ -55,7 +55,7 @@ const SOWithoutPairedAssignor = (props) => {
                   <option value="Option 3">Option 3</option>
                   <option value="Option 3">Option 3</option>
                 </select>
-                <select className="s-without-paired-assignor-select1">
+                <select className="locationFilter">
                   <option value="Location" selected>
                     Location
                   </option>
@@ -70,19 +70,19 @@ const SOWithoutPairedAssignor = (props) => {
               </div>
             </div>
           </div>
-          <div className="s-without-paired-assignor-placeholder-container">
-            <div className="s-without-paired-assignor-placeholder-text">
-              <span className="s-without-paired-assignor-text4 Headine2">
-                <span>You don’t have any paired assignor yet</span>
+          <div className="placeholderContainer">
+            <div className="placeholderTextContainer">
+              <span className="Headine2 placeholderText">
+                You don’t have any paired assignor yet
               </span>
-              <span className="s-without-paired-assignor-text6 Subtitle1">
-                <span>Search an assignor to be paired</span>
+              <span className="Subtitle1 placeholderSubtitle">
+                Search an assignor to be paired
               </span>
             </div>
             <img
               alt="image14811"
               src="/emptypairing-600w.png"
-              className="s-without-paired-assignor-image1"
+              className="placeholderImg"
             />
           </div>
         </div>

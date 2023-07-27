@@ -20,23 +20,23 @@ const SOWithoutPairedResults = (props) => {
       <NavBar rootClassName="nav-bar-root-class-name6"></NavBar>
       <div className="s-without-paired-results-withoutpairedassignor">
         <div className="s-without-paired-results-content-container">
-          <div className="s-without-paired-results-top-container">
-            <div className="s-without-paired-results-header-container">
-              <span className="s-without-paired-results-pair-a-new-assignor Headine1">
-                Pair with a referee assignor
+          <div className="pairFirstRow">
+            <div className="headerContainer">
+              <span className="s-without-paired-results-pair-a-new-assignor Headine1 page-title">
+                <span>Pair a new assignor</span>
               </span>
-              <span className="s-without-paired-results-subtitle Caption">
+              <span className="s-without-paired-results-subtitle Caption Subtitle1 subtitle-1">
                 <span>
                   Search and pair an assignor with your sport organization
                 </span>
               </span>
             </div>
-            <div className="s-without-paired-results-search">
-              <span className="s-without-paired-results-text1">
+            <div className="searchFieldsContainer">
+              <span className="s-without-paired-results-text2 OverlineL overlineL">
                 <span>search assignors</span>
               </span>
-              <div className="s-without-paired-results-search-fields">
-                <div className="s-without-paired-results-search-bar">
+              <div className="s-without-paired-results-search-fields searchFields">
+                <div className="s-without-paired-results-search-bar searchBar">
                   <img
                     alt="IconI481"
                     src="/external/iconi481-3g1i.svg"
@@ -48,25 +48,25 @@ const SOWithoutPairedResults = (props) => {
                     className="s-without-paired-results-textinput input"
                   />
                 </div>
-                <select className="s-without-paired-results-select">
+                <select className="s-without-paired-results-select sportFilter">
                   <option value="Sport" selected>
                     Sport
                   </option>
-                  <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
+                  <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 3">Option 3</option>
                   <option value="Option 3">Option 3</option>
                   <option value="Option 3">Option 3</option>
                 </select>
-                <select className="s-without-paired-results-select1">
+                <select className="locationFilter">
                   <option value="Location" selected>
                     Location
                   </option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 1">Option 1</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
                   <option value="Option 2">Option 2</option>
@@ -78,8 +78,8 @@ const SOWithoutPairedResults = (props) => {
               </div>
             </div>
           </div>
-          <div className="s-without-paired-results-list-item">
-            <div className="s-without-paired-results-container1">
+          <div className="s-without-paired-results-list-item list-item">
+            <div className="s-without-paired-results-container1 gameList-inner">
               <SOAssignorResultItem rootClassName="s-assignor-result-item-root-class-name"></SOAssignorResultItem>
               <SOAssignorResultItem rootClassName="s-assignor-result-item-root-class-name4"></SOAssignorResultItem>
               <SOAssignorResultItem rootClassName="s-assignor-result-item-root-class-name3"></SOAssignorResultItem>
@@ -88,7 +88,7 @@ const SOWithoutPairedResults = (props) => {
               <SOAssignorResultItem rootClassName="s-assignor-result-item-root-class-name1"></SOAssignorResultItem>
             </div>
           </div>
-          <div className="s-without-paired-results-container2">
+          <div className="s-without-paired-results-btn-container btnContainer">
             <ButtonYellow
               primaryText="Send Pairing Request"
               rootClassName="button-yellow-root-class-name5"

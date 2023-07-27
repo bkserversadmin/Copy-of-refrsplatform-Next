@@ -28,23 +28,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s-without-paired-results-top-container {
-  gap: 40px;
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.s-without-paired-results-header-container {
-  gap: 16px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
 .s-without-paired-results-pair-a-new-assignor {
   color: var(--dl-color-grey-grey800);
   height: auto;
@@ -58,25 +41,11 @@
   text-align: left;
   line-height: normal;
 }
-.s-without-paired-results-search {
-  gap: 12px;
-  width: 100%;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.s-without-paired-results-text1 {
+.s-without-paired-results-text2 {
   color: var(--dl-color-grey-grey500);
   height: auto;
-  font-size: 12px;
-  font-style: normal;
   text-align: left;
-  font-family: Inter;
-  font-weight: 400px;
   line-height: normal;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 .s-without-paired-results-search-fields {
   gap: 16px;
@@ -123,18 +92,6 @@
   padding-right: 16px;
   padding-bottom: 10px;
 }
-.s-without-paired-results-select1 {
-  color: #A3A3A3;
-  width: 170px;
-  height: 44px;
-  font-size: 14px;
-  font-weight: 400;
-  padding-top: 10px;
-  padding-left: 16px;
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: 16px;
-  padding-bottom: 10px;
-}
 .s-without-paired-results-list-item {
   gap: 10px;
   width: 100%;
@@ -156,12 +113,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s-without-paired-results-container2 {
+.s-without-paired-results-btn-container {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-self: flex-start;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
+}
+@media(max-width: 991px) {
+  .s-without-paired-results-content-container {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
 }

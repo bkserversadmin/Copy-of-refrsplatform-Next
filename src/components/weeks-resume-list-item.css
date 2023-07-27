@@ -1,0 +1,38 @@
+.weeks-resume-list-item-weeks-resume-list-item {
+  gap: 16px;
+  display: flex;
+  padding: 24px 16px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.weeks-resume-list-item-container {
+  gap: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.weeks-resume-list-item-text {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.weeks-resume-list-item-games-and-amount {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.weeks-resume-list-item-text1 {
+  color: var(--dl-color-grey-grey800);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  line-height: 16px;
+}

@@ -1,0 +1,21 @@
+.earnings-indicators-earnings-indicators {
+  position: relative;
+}
+.earnings-indicators-right-col {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earnings-indicators-text3 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earnings-indicators-text4 {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}

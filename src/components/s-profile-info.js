@@ -13,62 +13,60 @@ const SOProfileInfo = (props) => {
         <Tab></Tab>
         <Tab text="Payout Information"></Tab>
       </div>
-      <div className="s-profile-info-profile-perosonal-info">
+      <div className="s-profile-info-info-container">
         <form className="s-profile-info-form">
-          <div className="formContainer">
-            <div className="s-profile-info-container">
-              <span className="Subtitle1 subtitle-1">Detailed information</span>
-              <div className="s-profile-info-form-row">
-                <div className="s-profile-info-general-text-field">
-                  <div className="s-profile-info-label-container">
-                    <span className="s-profile-info-organization-text OverlineS">
-                      {props.organizationText}
-                    </span>
-                  </div>
-                  <Input rootClassName="input-root-class-name18"></Input>
+          <div className="s-profile-info-form-container formContainer">
+            <span className="Subtitle1 subtitle-1">Detailed information</span>
+            <div className="formRow">
+              <div className="s-profile-info-general-text-field input-container">
+                <div className="s-profile-info-label-container label-container">
+                  <span className="s-profile-info-organization-text OverlineS overlineS">
+                    {props.organizationText}
+                  </span>
                 </div>
-                <div className="s-profile-info-general-text-field1">
-                  <div className="s-profile-info-label-container1">
-                    <span className="s-profile-info-sports-text OverlineS">
-                      {props.sportsText}
-                    </span>
-                  </div>
-                  <Input rootClassName="input-root-class-name19"></Input>
-                </div>
-                <div className="s-profile-info-general-text-field2">
-                  <div className="s-profile-info-label-container2">
-                    <span className="s-profile-info-city-text OverlineS">
-                      {props.cityText}
-                    </span>
-                  </div>
-                  <Input rootClassName="input-root-class-name26"></Input>
-                </div>
+                <Input rootClassName="input-root-class-name18"></Input>
               </div>
-              <div className="s-profile-info-form-row1">
-                <div className="s-profile-info-general-text-field3">
-                  <div className="s-profile-info-label-container3">
-                    <span className="s-profile-info-phone-number OverlineS">
-                      {props.phoneNumber}
-                    </span>
-                  </div>
-                  <Input rootClassName="input-root-class-name20"></Input>
+              <div className="s-profile-info-general-text-field1 input-container">
+                <div className="s-profile-info-label-container1 label-container">
+                  <span className="s-profile-info-sports-text OverlineS overlineS">
+                    {props.sportsText}
+                  </span>
                 </div>
-                <div className="s-profile-info-general-text-field4">
-                  <div className="s-profile-info-label-container4">
-                    <span className="s-profile-info-email OverlineS">
-                      {props.email}
-                    </span>
-                  </div>
-                  <Input rootClassName="input-root-class-name21"></Input>
+                <Input rootClassName="input-root-class-name19"></Input>
+              </div>
+              <div className="s-profile-info-general-text-field2 input-container">
+                <div className="s-profile-info-label-container2 label-container">
+                  <span className="s-profile-info-city-text OverlineS overlineS">
+                    {props.cityText}
+                  </span>
                 </div>
-                <div className="s-profile-info-general-text-field5">
-                  <div className="s-profile-info-label-container5"></div>
+                <Input rootClassName="input-root-class-name26"></Input>
+              </div>
+            </div>
+            <div className="s-profile-info-form-row1 formRow">
+              <div className="s-profile-info-general-text-field3 input-container">
+                <div className="s-profile-info-label-container3 label-container">
+                  <span className="s-profile-info-phone-number OverlineS overlineS">
+                    {props.phoneNumber}
+                  </span>
                 </div>
+                <Input rootClassName="input-root-class-name20"></Input>
+              </div>
+              <div className="s-profile-info-general-text-field4 input-container">
+                <div className="s-profile-info-label-container4 label-container">
+                  <span className="s-profile-info-email OverlineS overlineS">
+                    {props.email}
+                  </span>
+                </div>
+                <Input rootClassName="input-root-class-name21"></Input>
+              </div>
+              <div className="s-profile-info-general-text-field5 input-container">
+                <div className="s-profile-info-label-container5"></div>
               </div>
             </div>
           </div>
-          <div className="s-profile-info-text-block">
-            <span className="s-profile-info-about-message Subtitle1 subtitle-1">
+          <div className="s-profile-info-experience-container">
+            <span className="s-profile-info-about-message OverlineS overlineS Subtitle1">
               Experience
             </span>
             <textarea
@@ -76,7 +74,7 @@ const SOProfileInfo = (props) => {
               className="s-profile-info-textarea textarea"
             ></textarea>
           </div>
-          <div className="s-profile-info-button-container">
+          <div className="btnContainer">
             <button className="s-profile-info-button btnYellow">
               <span className="s-profile-info-text1 ButtonL">
                 <span>Save changes</span>

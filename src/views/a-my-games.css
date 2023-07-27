@@ -1,4 +1,4 @@
-.s-my-games-container {
+.a-my-games-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s-my-games-my-games {
+.a-my-games-my-games {
   width: 100%;
   height: 1121px;
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-grey-grey200);
 }
-.s-my-games-container1 {
+.a-my-games-container1 {
   gap: 40px;
   width: 100%;
   height: auto;
@@ -31,14 +31,14 @@
   padding-top: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.s-my-games-my-games-title {
+.a-my-games-my-games-title {
   color: var(--dl-color-grey-grey800);
   width: 100%;
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-search {
+.a-my-games-search {
   gap: 12px;
   width: 1170px;
   display: flex;
@@ -46,11 +46,11 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s-my-games-text {
+.a-my-games-text {
   color: var(--dl-color-grey-grey500);
   letter-spacing: 1.5px;
 }
-.s-my-games-text02 {
+.a-my-games-text02 {
   color: var(--dl-color-grey-grey600);
   font-size: 10px;
   align-self: center;
@@ -61,7 +61,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.s-my-games-to-container {
+.a-my-games-to-container {
   gap: 8px;
   flex: 0 0 auto;
   width: auto;
@@ -69,7 +69,7 @@
   display: flex;
   align-items: flex-start;
 }
-.s-my-games-text03 {
+.a-my-games-text03 {
   color: var(--dl-color-grey-grey600);
   font-size: 10px;
   align-self: center;
@@ -80,32 +80,32 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.s-my-games-upcoming-games-schedule {
+.a-my-games-upcoming-games-schedule {
   gap: 24px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.s-my-games-upcoming-game-schedule {
+.a-my-games-upcoming-game-schedule {
   color: var(--dl-color-grey-grey600);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-teams-container {
+.a-my-games-teams-container {
   gap: 10px;
   width: 196px;
   display: flex;
   padding: 8px 0;
   align-items: center;
 }
-.s-my-games-text04 {
+.a-my-games-text04 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-id-container {
+.a-my-games-id-container {
   gap: 10px;
   width: 60px;
   display: flex;
@@ -115,13 +115,13 @@
   padding-left: 8px 0;
   justify-content: center;
 }
-.s-my-games-text06 {
+.a-my-games-text06 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: center;
   line-height: normal;
 }
-.s-my-games-frame116 {
+.a-my-games-frame116 {
   gap: 10px;
   width: 137px;
   display: flex;
@@ -132,13 +132,13 @@
   padding-bottom: 8px;
   justify-content: center;
 }
-.s-my-games-text07 {
+.a-my-games-text07 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-frame121 {
+.a-my-games-frame121 {
   gap: 10px;
   width: 167px;
   display: flex;
@@ -146,13 +146,13 @@
   align-items: center;
   justify-content: flex-start;
 }
-.s-my-games-text09 {
+.a-my-games-text09 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-frame117 {
+.a-my-games-frame117 {
   gap: 10px;
   width: 135px;
   display: flex;
@@ -163,26 +163,26 @@
   padding-bottom: 8px;
   justify-content: center;
 }
-.s-my-games-text11 {
+.a-my-games-text11 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-frame40 {
+.a-my-games-frame40 {
   gap: 8px;
   display: flex;
   padding: 8px 12px;
   align-items: center;
   justify-content: center;
 }
-.s-my-games-text13 {
+.a-my-games-text13 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-frame401 {
+.a-my-games-frame401 {
   gap: 8px;
   width: 120px;
   display: flex;
@@ -190,26 +190,26 @@
   align-items: center;
   justify-content: center;
 }
-.s-my-games-text15 {
+.a-my-games-text15 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-frame118 {
+.a-my-games-frame118 {
   gap: 10px;
   display: flex;
   padding: 8px 40px;
   align-items: flex-start;
   justify-content: center;
 }
-.s-my-games-text16 {
+.a-my-games-text16 {
   color: var(--dl-color-grey-grey500);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.s-my-games-games-list {
+.a-my-games-games-list {
   gap: 4px;
   width: 1170px;
   height: 590px;
@@ -223,7 +223,7 @@
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 1);
 }
-.s-my-games-games-list-inner {
+.a-my-games-games-list-inner {
   gap: 8px;
   width: 100%;
   height: 550px;
@@ -234,30 +234,30 @@
   flex-direction: column;
 }
 @media(max-width: 991px) {
-  .s-my-games-container1 {
+  .a-my-games-container1 {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .s-my-games-search {
+  .a-my-games-search {
     width: 100%;
     max-width: 1170px;
   }
-  .s-my-games-upcoming-games-schedule {
+  .a-my-games-upcoming-games-schedule {
     width: 100%;
     max-width: 1170px;
   }
-  .s-my-games-games-list-container {
+  .a-my-games-games-list-container {
     width: 100%;
     max-width: 1170px;
   }
-  .s-my-games-games-list {
+  .a-my-games-games-list {
     width: 100%;
     height: 600px;
     max-width: 1170px;
   }
 }
 @media(max-width: 767px) {
-  .s-my-games-search-fields {
+  .a-my-games-search-fields {
     flex-wrap: wrap;
   }
 }

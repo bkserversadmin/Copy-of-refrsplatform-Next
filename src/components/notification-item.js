@@ -57,34 +57,32 @@ const NotificationItem = (props) => {
     <div className={`notification-item-container ${props.rootClassName} `}>
       {isPaymentInitiated && (
         <div className="notification-item-payment-initiated">
-          {isNewPayment && (
-            <div className="notification-item-payment-new">
-              <div className="notification-item-left-container">
-                <div className="notification-item-icon-container">
-                  <img
-                    alt="IconI256"
-                    src={props.paymentIcon}
-                    className="notification-item-notification-icon"
-                  />
-                </div>
-                <div className="notification-item-message-and-time">
-                  <div className="notification-item-notification-message">
-                    <span className="notification-item-payment-initiated-for">
-                      Payment initiated for
-                    </span>
-                    <span className="notification-item-amount-value">
-                      {props.paymentAmountValue}
-                    </span>
-                    <span className="notification-item-amount">amount.</span>
-                  </div>
-                  <span className="notification-item-notification-time Caption">
-                    {props.notificationTime}
-                  </span>
-                </div>
+          <div className="notification-item-payment-new">
+            <div className="notification-item-left-container">
+              <div className="notification-item-icon-container">
+                <img
+                  alt="IconI256"
+                  src={props.paymentIcon}
+                  className="notification-item-notification-icon"
+                />
               </div>
-              <div className="notification-item-new-indicator"></div>
+              <div className="notification-item-message-and-time">
+                <div className="notification-item-notification-message">
+                  <span className="notification-item-payment-initiated-for">
+                    Payment initiated for
+                  </span>
+                  <span className="notification-item-amount-value">
+                    {props.paymentAmountValue}
+                  </span>
+                  <span className="notification-item-amount">amount.</span>
+                </div>
+                <span className="notification-item-notification-time Caption">
+                  {props.notificationTime}
+                </span>
+              </div>
             </div>
-          )}
+            <div className="notification-item-new-indicator"></div>
+          </div>
           {!isNewPayment && (
             <div className="notification-item-payment-old">
               <div className="notification-item-left-container01">

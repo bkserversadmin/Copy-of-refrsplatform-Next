@@ -1380,6 +1380,379 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.gamesCreatedContainer {
+  gap: 40px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 24px;
+}
+.highliteAmount {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.formRow {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.btnContainer {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.paymentsRow {
+  gap: 30px;
+  width: 1170px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.balanceContainer {
+  gap: 16px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.earningsIndicator {
+  gap: 32px;
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.earningsInner {
+  gap: 16px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.earningsData {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earningsDate {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.earningsValue {
+  color: var(--dl-color-yellow-yellow800);
+  height: auto;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.monthBalance {
+  gap: 16px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.earningsChart {
+  gap: 24px;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 220px;
+  display: flex;
+  padding: 25.466663360595703px;
+  align-items: center;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1.050370454788208px;
+  border-radius: 16.9777774810791px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pamentsList {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.paymentsDetailsContainer {
+  gap: 16px;
+  width: 571px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.forecastedCharts {
+  gap: 24px;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 220px;
+  display: flex;
+  padding: 25.466663360595703px;
+  align-items: center;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1.050370454788208px;
+  border-radius: 16.9777774810791px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pairedAssignorContainer {
+  gap: 16px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.anotherAssignorsContainer {
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.anotherAssignorsList {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-height: 600px;
+  overflow-y: scroll;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gamesListHeader {
+  width: 1170px;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.pairAssignorsContainer {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: 980px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pairFirstRow {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.placeholderContainer {
+  width: 100%;
+  height: 367px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 1;
+  padding-left: 32px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.headerContainer {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.searchFieldsContainer {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.locationFilter {
+  color: #A3A3A3;
+  width: 170px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 16px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 16px;
+  padding-bottom: 10px;
+}
+.placeholderTextContainer {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.placeholderText {
+  color: var(--dl-color-grey-grey800);
+  width: 444px;
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.placeholderSubtitle {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.placeholderImg {
+  top: 0px;
+  right: 0px;
+  width: 551px;
+  height: 368px;
+  position: absolute;
+  border-radius: 0 24px 24px 0;
+}
+.modalHeader {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.modalBody {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.modalFooter {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.modalTitleRow {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.modalSearchAndFilters {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.modalAssignorResults {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.assignorResultSelected {
+  gap: 24px;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: var(--dl-color-yellow-yellow300);
+}
+.assignorResultNormal {
+  gap: 24px;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: var(--dl-color-grey-grey200);
+}
+.resultInfoContainer {
+  gap: 109px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.resultCheck {
+  gap: 10px;
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-default-white);
+}
+.totalGamesAssigned {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.averagePerGame {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rightColumn {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.experienceContainer {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .Body3 {
   font-size: 12px;
   font-style: normal;
@@ -1537,7 +1910,22 @@
     justify-content: flex-end;
   }
 }
-
+@media(max-width: 991px) {
+  .formRow {
+    flex-wrap: wrap;
+  }
+  .gamesListHeader {
+    width: 100%;
+    max-width: 1170px;
+  }
+  .pairAssignorsContainer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .placeholderText {
+    width: 100%;
+  }
+}
 @media(max-width: 767px) {
   .navBar {
     padding-left: var(--dl-space-space-twounits);
@@ -1545,6 +1933,9 @@
   }
   .gameItem-container {
     gap: var(--dl-space-space-twounits);
+  }
+  .placeholderText {
+    max-width: 200px;
   }
 }
 @media(max-width: 479px) {

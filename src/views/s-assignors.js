@@ -30,7 +30,7 @@ const SOAssignors = (props) => {
             <div className="searchContainer">
               <span className="OverlineL overlineL">search assignors</span>
               <div className="s-assignors-search-fields">
-                <div className="searchBar">
+                <div className="searchBar s-assignors-search-bar">
                   <img
                     alt="IconI481"
                     src="/external/iconi481-3g1i.svg"
@@ -42,7 +42,7 @@ const SOAssignors = (props) => {
                     className="s-assignors-textinput input"
                   />
                 </div>
-                <select className="select">
+                <select className="select s-assignors-select">
                   <option value="State" selected>
                     State
                   </option>
@@ -99,23 +99,21 @@ const SOAssignors = (props) => {
               </div>
             </div>
           </div>
-          <div className="s-assignors-list-item">
-            <div className="s-assignors-container1">
-              <div className="s-assignors-container2">
+          <div className="s-assignors-list-item list-item">
+            <div className="s-assignors-inner-container inner-container">
+              <div className="pairedAssignorContainer">
                 <span className="s-assignors-text1 OverlineL overlineL">
                   <span>your paired assignor</span>
                   <br></br>
                 </span>
-                <div className="s-assignors-container3">
-                  <AssignorItem rootClassName="assignor-item-root-class-name"></AssignorItem>
-                </div>
+                <AssignorItem rootClassName="assignor-item-root-class-name"></AssignorItem>
               </div>
-              <div className="s-assignors-container4">
+              <div className="anotherAssignorsContainer">
                 <span className="s-assignors-text4 OverlineL overlineL">
-                  <span>your paired assignor</span>
+                  <span>Another Assignor</span>
                   <br></br>
                 </span>
-                <div className="s-assignors-container5">
+                <div className="anotherAssignorsList">
                   <AssignorItem rootClassName="assignor-item-root-class-name1"></AssignorItem>
                   <AssignorItem rootClassName="assignor-item-root-class-name2"></AssignorItem>
                   <AssignorItem rootClassName="assignor-item-root-class-name5"></AssignorItem>

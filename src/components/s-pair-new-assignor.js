@@ -1,15 +1,13 @@
 import React from 'react'
 
-import PropTypes from 'prop-types'
-
 import './s-pair-new-assignor.css'
 
 const SOPairNewAssignor = (props) => {
   return (
     <div className="s-pair-new-assignor-container">
       <div className="s-pair-new-assignor-pair-new-assignor">
-        <div className="s-pair-new-assignor-modal-header">
-          <div className="s-pair-new-assignor-title-close-row">
+        <div className="modalHeader">
+          <div className="modalTitleRow">
             <span className="s-pair-new-assignor-pair-a-new-assignor Headine3">
               <span>Pair a new assignor</span>
             </span>
@@ -19,14 +17,14 @@ const SOPairNewAssignor = (props) => {
               className="s-pair-new-assignor-materialsymbolsclose"
             />
           </div>
-          <span className="s-pair-new-assignor-subtitle Body3">
+          <span className="s-pair-new-assignor-subtitle Body3 Subtitle1 subtitle-1">
             <span>
               Search and pair new assignors with your sport organization
             </span>
           </span>
         </div>
-        <div className="s-pair-new-assignor-modal-body">
-          <div className="s-pair-new-assignor-search-and-filters">
+        <div className="modalBody">
+          <div className="modalSearchAndFilters">
             <span className="s-pair-new-assignor-text2">
               <span>search assignors</span>
             </span>
@@ -66,23 +64,23 @@ const SOPairNewAssignor = (props) => {
               </div>
             </div>
           </div>
-          <div className="s-pair-new-assignor-assignor-results">
-            <div className="s-pair-new-assignor-result-selected">
-              <div className="s-pair-new-assignor-result-info">
+          <div className="modalAssignorResults">
+            <div className="assignorResultSelected">
+              <div className="resultInfoContainer">
                 <div className="s-pair-new-assignor-avatar-name-role">
                   <div className="s-pair-new-assignor-avatar">
                     <img
-                      alt={props.avatarAlt}
-                      src={props.userAvatar}
+                      alt="Ronald Richards"
+                      src="/external/ellipse36i488-quhq-200h.png"
                       className="s-pair-new-assignor-user-avatar"
                     />
                   </div>
                   <div className="s-pair-new-assignor-name-and-role">
                     <span className="s-pair-new-assignor-name Subtitle1">
-                      {props.userName}
+                      Ronald Richards
                     </span>
                     <span className="s-pair-new-assignor-role">
-                      {props.userRole}
+                      Hockey referee
                     </span>
                   </div>
                 </div>
@@ -93,11 +91,11 @@ const SOPairNewAssignor = (props) => {
                     className="s-pair-new-assignor-icon1"
                   />
                   <span className="s-pair-new-assignor-city-name Subtitle2">
-                    {props.cityName}
+                    California
                   </span>
                 </div>
               </div>
-              <div className="s-pair-new-assignor-check">
+              <div className="resultCheck">
                 <img
                   alt="IconI488"
                   src="/external/iconi488-bc1.svg"
@@ -105,23 +103,21 @@ const SOPairNewAssignor = (props) => {
                 />
               </div>
             </div>
-            <div className="s-pair-new-assignor-result-normal">
-              <div className="s-pair-new-assignor-result-info1">
+            <div className="assignorResultNormal">
+              <div className="s-pair-new-assignor-result-info1 resultInfoContainer">
                 <div className="s-pair-new-assignor-avatar-name-role1">
                   <div className="s-pair-new-assignor-avatar1">
                     <img
                       alt="Ronald Richards"
-                      src={props.userAvatar}
+                      src="/external/ellipse36i488-quhq-200h.png"
                       className="s-pair-new-assignor-user-avatar1"
                     />
                   </div>
                   <div className="s-pair-new-assignor-name-and-role1">
                     <span className="s-pair-new-assignor-name1 Subtitle1">
-                      {props.userName}
+                      Text
                     </span>
-                    <span className="s-pair-new-assignor-role1">
-                      {props.userRole}
-                    </span>
+                    <span className="s-pair-new-assignor-role1">Text</span>
                   </div>
                 </div>
                 <div className="s-pair-new-assignor-city1">
@@ -131,21 +127,21 @@ const SOPairNewAssignor = (props) => {
                     className="s-pair-new-assignor-icon3"
                   />
                   <span className="s-pair-new-assignor-city-name1 Subtitle2">
-                    {props.cityName}
+                    California
                   </span>
                 </div>
               </div>
-              <div className="s-pair-new-assignor-check1"></div>
+              <div className="s-pair-new-assignor-check1 resultCheck"></div>
             </div>
           </div>
         </div>
-        <div className="s-pair-new-assignor-modal-footer">
-          <button className="s-pair-new-assignor-cancel-btn">
+        <div className="modalFooter">
+          <button className="s-pair-new-assignor-cancel-btn btnGreyText">
             <span className="s-pair-new-assignor-cancel ButtonL">
               <span>Cancel</span>
             </span>
           </button>
-          <button className="s-pair-new-assignor-pair-btn">
+          <button className="s-pair-new-assignor-pair-btn btnPrimary">
             <span className="s-pair-new-assignor-pair-assignor ButtonL">
               <span>Pair assignor</span>
             </span>
@@ -154,22 +150,6 @@ const SOPairNewAssignor = (props) => {
       </div>
     </div>
   )
-}
-
-SOPairNewAssignor.defaultProps = {
-  userRole: 'Hockey referee',
-  userAvatar: '/external/ellipse36i488-quhq-200h.png',
-  avatarAlt: 'Ronald Richards',
-  cityName: 'California',
-  userName: 'Ronald Richards',
-}
-
-SOPairNewAssignor.propTypes = {
-  userRole: PropTypes.string,
-  userAvatar: PropTypes.string,
-  avatarAlt: PropTypes.string,
-  cityName: PropTypes.string,
-  userName: PropTypes.string,
 }
 
 export default SOPairNewAssignor
