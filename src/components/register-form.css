@@ -1,26 +1,47 @@
-.register-form-container {
-  display: flex;
-  position: relative;
-}
 .register-form-register-form {
+  gap: 32px;
+  width: 1012px;
+  display: flex;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: flex-start;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.register-form-form-header {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.register-form-register {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.register-form-create-your-account {
+  color: var(--dl-color-grey-grey600);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.register-form-register-form1 {
   gap: 24px;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-.register-form-frame9 {
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
-}
-.register-form-frame6086 {
+.register-form-left-fields {
   gap: 24px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.register-form-general-text-field {
+.register-form-first-name {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -40,7 +61,7 @@
   text-align: left;
   line-height: normal;
 }
-.register-form-general-dropdown {
+.register-form-type-of-account-field {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -83,7 +104,7 @@
 .register-form-select:focus-visible {
   border: 1px solid #F6C513;
 }
-.register-form-general-text-field1 {
+.register-form-password {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -103,13 +124,13 @@
   text-align: left;
   line-height: normal;
 }
-.register-form-frame6085 {
+.register-form-right-fields {
   gap: 24px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.register-form-general-text-field2 {
+.register-form-last-name {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -129,7 +150,7 @@
   text-align: left;
   line-height: normal;
 }
-.register-form-general-text-field3 {
+.register-form-email {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -149,7 +170,7 @@
   text-align: left;
   line-height: normal;
 }
-.register-form-general-text-field4 {
+.register-form-repeat-password {
   gap: 8px;
   width: 470px;
   display: flex;
@@ -169,17 +190,44 @@
   text-align: left;
   line-height: normal;
 }
-.register-form-container1 {
+.register-form-container {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-self: flex-end;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+.register-form-form-switch {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.register-form-already-have-account {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: 14px;
+}
+.register-form-text13 {
+  color: var(--dl-color-yellow-yellow600);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
 .register-form-button {
   gap: 12px;
+  width: auto;
   display: flex;
   padding: 14px 24px;
   align-items: center;
@@ -188,7 +236,7 @@
   text-decoration: none;
   background-color: var(--dl-color-yellow-yellow400);
 }
-.register-form-text12 {
+.register-form-text15 {
   color: var(--dl-color-yellow-yellow900);
   height: auto;
   text-align: left;

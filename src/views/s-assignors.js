@@ -17,9 +17,9 @@ const SOAssignors = (props) => {
       <NavBar rootClassName="nav-bar-root-class-name12"></NavBar>
       <div className="s-assignors-withoutpairedassignor">
         <div className="s-assignors-content-container">
-          <div className="s-assignors-top-container">
+          <div className="topContainer">
             <div className="s-assignors-header-container">
-              <span className="s-assignors-pair-a-new-assignor Headine1">
+              <span className="s-assignors-pair-a-new-assignor Headine1 page-title">
                 Assignors
               </span>
               <ButtonGrey
@@ -27,12 +27,10 @@ const SOAssignors = (props) => {
                 rootClassName="button-grey-root-class-name"
               ></ButtonGrey>
             </div>
-            <div className="s-assignors-search">
-              <span className="s-assignors-text">
-                <span>search assignors</span>
-              </span>
+            <div className="searchContainer">
+              <span className="OverlineL overlineL">search assignors</span>
               <div className="s-assignors-search-fields">
-                <div className="s-assignors-search-bar">
+                <div className="searchBar">
                   <img
                     alt="IconI481"
                     src="/external/iconi481-3g1i.svg"
@@ -44,7 +42,7 @@ const SOAssignors = (props) => {
                     className="s-assignors-textinput input"
                   />
                 </div>
-                <select className="s-assignors-select">
+                <select className="select">
                   <option value="State" selected>
                     State
                   </option>
@@ -59,7 +57,7 @@ const SOAssignors = (props) => {
                   <option value="Option 3">Option 3</option>
                   <option value="Option 3">Option 3</option>
                 </select>
-                <select className="s-assignors-select1">
+                <select className="s-assignors-select1 select">
                   <option value="Location" selected>
                     Location
                   </option>
@@ -77,7 +75,7 @@ const SOAssignors = (props) => {
                   <option value="Option 3">Option 3</option>
                   <option value="Option 3">Option 3</option>
                 </select>
-                <select className="s-assignors-select2">
+                <select className="s-assignors-select2 select">
                   <option value="Sport" selected>
                     Sport
                   </option>
@@ -104,7 +102,7 @@ const SOAssignors = (props) => {
           <div className="s-assignors-list-item">
             <div className="s-assignors-container1">
               <div className="s-assignors-container2">
-                <span className="s-assignors-text2">
+                <span className="s-assignors-text1 OverlineL overlineL">
                   <span>your paired assignor</span>
                   <br></br>
                 </span>
@@ -113,7 +111,7 @@ const SOAssignors = (props) => {
                 </div>
               </div>
               <div className="s-assignors-container4">
-                <span className="s-assignors-text5">
+                <span className="s-assignors-text4 OverlineL overlineL">
                   <span>your paired assignor</span>
                   <br></br>
                 </span>

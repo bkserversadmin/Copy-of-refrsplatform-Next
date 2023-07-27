@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import GamesListItem from '../components/games-list-item'
+import GameItem from '../components/game-item'
 import ButtonYellow from '../components/button-yellow'
 import WeeklyEarnings from '../components/weekly-earnings'
 import NavBar from '../components/nav-bar'
@@ -66,10 +66,10 @@ const Welcome = (props) => {
                           <span>$42</span>
                         </span>
                       </div>
-                      <GamesListItem
+                      <GameItem
                         GameName="Lakers vs Chicago"
-                        rootClassName="games-list-item-root-class-name8"
-                      ></GamesListItem>
+                        rootClassName="game-item-root-class-name8"
+                      ></GameItem>
                       <div className="welcome-games-list-item1">
                         <span className="welcome-text19">
                           <span>Clippers vs Timberwolves</span>
@@ -86,10 +86,10 @@ const Welcome = (props) => {
                           <span>$35</span>
                         </span>
                       </div>
-                      <GamesListItem rootClassName="games-list-item-root-class-name7"></GamesListItem>
-                      <GamesListItem rootClassName="games-list-item-root-class-name12"></GamesListItem>
-                      <GamesListItem rootClassName="games-list-item-root-class-name13"></GamesListItem>
-                      <GamesListItem rootClassName="games-list-item-root-class-name14"></GamesListItem>
+                      <GameItem rootClassName="game-item-root-class-name7"></GameItem>
+                      <GameItem rootClassName="game-item-root-class-name12"></GameItem>
+                      <GameItem rootClassName="game-item-root-class-name13"></GameItem>
+                      <GameItem rootClassName="game-item-root-class-name14"></GameItem>
                     </div>
                   </div>
                 </div>
@@ -147,9 +147,9 @@ const Welcome = (props) => {
                           <span>$43</span>
                         </span>
                       </div>
-                      <GamesListItem rootClassName="games-list-item-root-class-name9"></GamesListItem>
-                      <GamesListItem rootClassName="games-list-item-root-class-name10"></GamesListItem>
-                      <GamesListItem rootClassName="games-list-item-root-class-name11"></GamesListItem>
+                      <GameItem rootClassName="game-item-root-class-name9"></GameItem>
+                      <GameItem rootClassName="game-item-root-class-name10"></GameItem>
+                      <GameItem rootClassName="game-item-root-class-name11"></GameItem>
                     </div>
                   </div>
                 </div>

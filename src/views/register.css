@@ -8,114 +8,19 @@
 }
 .register-register {
   width: 100%;
-  height: 1024px;
+  height: auto;
   display: flex;
   overflow: hidden;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
+  flex-direction: column;
   justify-content: flex-start;
   background-color: var(--dl-color-default-white);
 }
-.register-rossbonanderm-rg-dg-w8d-zgunsplash1 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  bottom: 0px;
-  height: 1021px;
-  margin: auto;
-  position: absolute;
-}
-.register-general-access-form {
-  gap: 32px;
-  top: 228px;
-  left: 0px;
-  right: 0px;
-  width: 1012px;
-  margin: auto;
-  display: flex;
-  padding: 24px;
-  position: absolute;
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05000000074505806) ;
-  align-items: flex-start;
-  border-radius: 16px;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 1);
-}
-.register-frame5965 {
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.register-text {
-  color: var(--dl-color-yellow-yellow900);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.register-text02 {
-  color: var(--dl-color-grey-grey600);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.register-frame12 {
-  gap: 8px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  justify-content: center;
-}
-.register-text04 {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: 14px;
-}
-.register-text06 {
-  color: var(--dl-color-yellow-yellow600);
-  height: auto;
-  font-size: 14px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.register-frame6106 {
-  gap: 69px;
-  top: 989px;
-  left: 485px;
-  width: 470px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-}
-.register-text08 {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: 14px;
-}
-.register-frame5964 {
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
-}
-.register-text10 {
-  color: var(--dl-color-yellow-yellow600);
-  height: auto;
-  text-align: left;
-  line-height: 14px;
-}
-.register-text12 {
-  color: var(--dl-color-yellow-yellow600);
-  height: auto;
-  text-align: left;
-  line-height: 14px;
+.register-form-container {
+  height: 100vh;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url("/img/registerbg-1500h.jpg");
 }

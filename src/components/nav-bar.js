@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
@@ -6,183 +6,157 @@ import ButtonYellow from './button-yellow'
 import './nav-bar.css'
 
 const NavBar = (props) => {
-  const [isLogged, setIsLogged] = useState(true)
-  const [isUserSportOrg, setIsUserSportOrg] = useState(true)
-  const [isUserReferee, setIsUserReferee] = useState(true)
-  const [isUserAssignor, setIsUserAssignor] = useState(true)
   return (
     <div className={`nav-bar-container ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="navBar">
-        <img alt="logo" src="/logo.svg" className="nav-bar-navbar-logo" />
-        <div className="nav-bar-container1">
+        <img alt="logo" src="/logo.svg" className="navBarLogo" />
+        <div className="menuContainer">
           <div data-thq="thq-navbar-nav" className="desktopMenu">
-            {!isLogged && (
-              <nav className="unLoggedLinks">
-                <span className="nav-bar-text">Solution</span>
-                <span className="nav-bar-text01">Vision</span>
-                <span className="nav-bar-text02">Story</span>
-                <span className="nav-bar-text03">Blog</span>
+            <nav className="unLoggedLinks">
+              <span className="linksITem">Solution</span>
+              <span className="nav-bar-text01 linksITem">Vision</span>
+              <span className="nav-bar-text02 linksITem">Story</span>
+              <span className="nav-bar-text03 linksITem">Blog</span>
+            </nav>
+            <div className="nav-bar-users-links-container usersLinksContainer">
+              <nav className="nav-bar-referee-links refereeLinks">
+                <span className="nav-bar-text04 linksITem">Home</span>
+                <span className="nav-bar-text05 linksITem">My games</span>
+                <span className="nav-bar-text06 linksITem">Earnings</span>
+                <span className="nav-bar-text07 linksITem">Availability</span>
               </nav>
-            )}
-            {isLogged && (
-              <div className="nav-bar-users-links-container usersLinksContainer">
-                {isUserReferee && (
-                  <nav className="nav-bar-referee-links refereeLinks">
-                    <span className="nav-bar-text04">Home</span>
-                    <span className="nav-bar-text05">My games</span>
-                    <span className="nav-bar-text06">Earnings</span>
-                    <span className="nav-bar-text07">Availability</span>
-                  </nav>
-                )}
-                {isUserAssignor && (
-                  <nav className="nav-bar-assignor-links assignorLinks">
-                    <span className="nav-bar-text08">Home</span>
-                    <span className="nav-bar-text09">Games</span>
-                    <span className="nav-bar-text10">Referees</span>
-                    <span className="nav-bar-text11">Earnings</span>
-                    <span className="nav-bar-text12">Management</span>
-                  </nav>
-                )}
-                {isUserSportOrg && (
-                  <nav className="nav-bar-sport-org-links sportOrgLinks">
-                    <span className="nav-bar-text13">Home</span>
-                    <span className="nav-bar-text14">Assignors</span>
-                    <span className="nav-bar-text15">Games</span>
-                    <span className="nav-bar-text16">Schedule</span>
-                    <span className="nav-bar-text17">Payments</span>
-                  </nav>
-                )}
-              </div>
-            )}
-            {!isLogged && (
-              <div className="nav-bar-log-in-button">
-                <ButtonYellow
-                  rootClassName="button-yellow-root-class-name7"
-                  primaryText="Log in"
-                  className=""
-                ></ButtonYellow>
-              </div>
-            )}
-            {isLogged && (
-              <div className="nav-bar-right-block">
-                <div className="nav-bar-navbar-notifications">
-                  <div className="nav-bar-bell-icon">
-                    <img
-                      alt="FrameI243"
-                      src="/external/framei243-rmuy.svg"
-                      className="nav-bar-frame"
-                    />
-                  </div>
-                  <div className="nav-bar-notification-number">
-                    <span className="nav-bar-notification-number1">
-                      {props.NotificationNumber}
-                    </span>
-                  </div>
+              <nav className="nav-bar-assignor-links assignorLinks">
+                <span className="nav-bar-text08 linksITem">Home</span>
+                <span className="nav-bar-text09 linksITem">Games</span>
+                <span className="nav-bar-text10 linksITem">Referees</span>
+                <span className="nav-bar-text11 linksITem">Earnings</span>
+                <span className="nav-bar-text12 linksITem">Management</span>
+              </nav>
+              <nav className="nav-bar-sport-org-links sportOrgLinks">
+                <span className="nav-bar-text13 linksITem">Home</span>
+                <span className="nav-bar-text14 linksITem">Assignors</span>
+                <span className="nav-bar-text15 linksITem">Games</span>
+                <span className="nav-bar-text16 linksITem">Schedule</span>
+                <span className="nav-bar-text17 linksITem">Payments</span>
+              </nav>
+            </div>
+            <div className="buttonContainer">
+              <ButtonYellow
+                primaryText="Log in"
+                rootClassName="button-yellow-root-class-name7"
+                className=""
+              ></ButtonYellow>
+            </div>
+            <div className="rightBlock">
+              <div className="navBarNotifications">
+                <div className="nav-bar-bell-icon">
+                  <img
+                    alt="FrameI243"
+                    src="/external/framei243-rmuy.svg"
+                    className="nav-bar-frame"
+                  />
                 </div>
+                <div className="notificationNumber">
+                  <span className="nav-bar-notification-number1">2</span>
+                </div>
+              </div>
+              <div
+                data-thq="thq-dropdown"
+                className="nav-bar-profile-dropdown list-item"
+              >
                 <div
-                  data-thq="thq-dropdown"
-                  className="nav-bar-profile-dropdown list-item"
+                  data-thq="thq-dropdown-toggle"
+                  className="nav-bar-dropdown-toggle"
                 >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    className="nav-bar-dropdown-toggle"
-                  >
-                    <div className="nav-bar-avatar">
-                      {isUserSportOrg && (
-                        <img
-                          alt={props.Avatar_alt}
-                          src={props.Avatar_src}
-                          className="nav-bar-avatar1"
-                        />
-                      )}
-                      {!isUserSportOrg && (
-                        <img
-                          alt={props.Avatar_alt1}
-                          src={props.Avatar_src1}
-                          className="nav-bar-avatar2"
-                        />
-                      )}
-                    </div>
-                    <span className="nav-bar-text18">Menu Item</span>
-                    <div
-                      data-thq="thq-dropdown-arrow"
-                      className="nav-bar-dropdown-arrow"
-                    ></div>
+                  <div className="nav-bar-avatar">
                     <img
-                      alt="IconI243"
-                      src="/external/iconi243-ulod.svg"
-                      className="nav-bar-icon"
+                      alt="Ellipse36I243"
+                      src="/sportorgavatar-200h.png"
+                      className="nav-bar-avatar1"
+                    />
+                    <img
+                      alt="Ellipse36I243"
+                      src="/external/avatar-1-200h.png"
+                      className="nav-bar-avatar2"
                     />
                   </div>
-                  <ul
-                    data-thq="thq-dropdown-list"
-                    className="nav-bar-dropdown-list"
-                  >
-                    <li
-                      data-thq="thq-dropdown"
-                      className="nav-bar-dropdown list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle1"
-                      >
-                        <img
-                          alt="image"
-                          src="/iconprofile.svg"
-                          className="nav-bar-image"
-                        />
-                        <span className="nav-bar-text19">Profile</span>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="nav-bar-dropdown1 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle2"
-                      >
-                        <img
-                          alt="image"
-                          src="/iconassignor.svg"
-                          className="nav-bar-image1"
-                        />
-                        <span className="nav-bar-text20">Assignors</span>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="nav-bar-dropdown2 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle3"
-                      >
-                        <img
-                          alt="image"
-                          src="/iconhelp.svg"
-                          className="nav-bar-image2"
-                        />
-                        <span className="nav-bar-text21">
-                          Help &amp; Support
-                        </span>
-                      </div>
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle4"
-                      >
-                        <img
-                          alt="image"
-                          src="/iconlogout.svg"
-                          className="nav-bar-image3"
-                        />
-                        <span className="nav-bar-text22">Log Out</span>
-                      </div>
-                    </li>
-                  </ul>
+                  <span className="nav-bar-text18">Menu Item</span>
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    className="nav-bar-dropdown-arrow"
+                  ></div>
+                  <img
+                    alt="IconI243"
+                    src="/external/iconi243-ulod.svg"
+                    className="nav-bar-icon"
+                  />
                 </div>
+                <ul
+                  data-thq="thq-dropdown-list"
+                  className="nav-bar-dropdown-list"
+                >
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-bar-dropdown list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle1"
+                    >
+                      <img
+                        alt="image"
+                        src="/iconprofile.svg"
+                        className="nav-bar-image"
+                      />
+                      <span className="nav-bar-text19">Profile</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-bar-dropdown1 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle2"
+                    >
+                      <img
+                        alt="image"
+                        src="/iconassignor.svg"
+                        className="nav-bar-image1"
+                      />
+                      <span className="nav-bar-text20">Assignors</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-bar-dropdown2 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle3"
+                    >
+                      <img
+                        alt="image"
+                        src="/iconhelp.svg"
+                        className="nav-bar-image2"
+                      />
+                      <span className="nav-bar-text21">Help &amp; Support</span>
+                    </div>
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle4"
+                    >
+                      <img
+                        alt="image"
+                        src="/iconlogout.svg"
+                        className="nav-bar-image3"
+                      />
+                      <span className="nav-bar-text22">Log Out</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            )}
+            </div>
           </div>
         </div>
         <div data-thq="thq-burger-menu" className="nav-bar-burger-menu">
@@ -258,21 +232,11 @@ const NavBar = (props) => {
 }
 
 NavBar.defaultProps = {
-  Avatar_alt: 'Ellipse36I243',
   rootClassName: '',
-  NotificationNumber: '2',
-  Avatar_src: '/sportorgavatar-200h.png',
-  Avatar_alt1: 'Ellipse36I243',
-  Avatar_src1: '/external/avatar-1-200h.png',
 }
 
 NavBar.propTypes = {
-  Avatar_alt: PropTypes.string,
   rootClassName: PropTypes.string,
-  NotificationNumber: PropTypes.string,
-  Avatar_src: PropTypes.string,
-  Avatar_alt1: PropTypes.string,
-  Avatar_src1: PropTypes.string,
 }
 
 export default NavBar

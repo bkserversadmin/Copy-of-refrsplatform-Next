@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
-import GamesListItem from '../components/games-list-item'
+import GameItem from '../components/game-item'
 import './my-games.css'
 
 const MyGames = (props) => {
@@ -148,14 +148,14 @@ const MyGames = (props) => {
               </div>
               <div className="my-games-games-list">
                 <div className="my-games-games-list-inner">
-                  <GamesListItem GameName="knfjslkgnerlge"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name1"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name2"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name3"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name4"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name5"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name6"></GamesListItem>
+                  <GameItem GameName="knfjslkgnerlge"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name1"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name2"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name3"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name4"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name5"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name6"></GameItem>
                 </div>
               </div>
             </div>

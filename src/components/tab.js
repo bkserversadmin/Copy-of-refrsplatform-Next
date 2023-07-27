@@ -9,12 +9,12 @@ const Tab = (props) => {
   return (
     <div className="tab-tab tab">
       {!isActive && (
-        <div className="tab-container">
+        <div className="tabDefault">
           <span className="tab-text Body2">{props.text}</span>
         </div>
       )}
       {isActive && (
-        <div className="tab-container1">
+        <div className="tabActive">
           <span className="tab-text1 Body2">{props.text1}</span>
         </div>
       )}

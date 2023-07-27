@@ -1,0 +1,8 @@
+.footer-footer {
+  position: relative;
+}
+.footer-links {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}

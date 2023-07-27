@@ -19,40 +19,40 @@ const SOPaymentInformation = (props) => {
         <NavBar rootClassName="nav-bar-root-class-name14"></NavBar>
         <div className="s-payment-information-content-container">
           <div className="s-payment-information-frame6109">
-            <span className="s-payment-information-text Headine1">
+            <span className="s-payment-information-text Headine1 page-title">
               Payments
             </span>
             <div className="s-payment-information-frame6036">
               <div className="s-payment-information-frame6070">
-                <span className="s-payment-information-text001 OverlineL">
+                <span className="s-payment-information-text01 OverlineL overlineL">
                   Payments balance
                 </span>
                 <div className="s-payment-information-earnings-indicators">
                   <div className="s-payment-information-frame60701">
                     <div className="s-payment-information-frame6088">
-                      <span className="s-payment-information-text002 Body1">
-                        <span>May 14 - 20</span>
+                      <span className="s-payment-information-text02 Body1 body-1">
+                        May 14 - 20
                       </span>
-                      <span className="s-payment-information-text004">
-                        <span>$3860.00</span>
+                      <span className="s-payment-information-text03">
+                        $3860.00
                       </span>
-                      <span className="s-payment-information-text006 Body1">
-                        <span>Balance will be charged Jun 5th</span>
+                      <span className="Body1 body-1">
+                        Balance will be charged Jun 5th
                       </span>
                     </div>
                     <div className="s-payment-information-frame6087">
-                      <span className="s-payment-information-text008 Body1">
-                        <span>20 Completed Games</span>
+                      <span className="s-payment-information-text05 Body1 body-1">
+                        20 Completed Games
                       </span>
-                      <span className="s-payment-information-text010 Body1">
-                        <span>60 Referees Worked</span>
+                      <span className="s-payment-information-text06 Body1 body-1">
+                        60 Referees Worked
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="s-payment-information-frame6035">
-                <span className="s-payment-information-text012 OverlineL">
+                <span className="s-payment-information-text07 OverlineL overlineL">
                   May balance
                 </span>
                 <div className="s-payment-information-earnings-chart">
@@ -71,7 +71,7 @@ const SOPaymentInformation = (props) => {
                               src="/external/undefinedamounti508-qvf.svg"
                               className="s-payment-information-undefined-amount"
                             />
-                            <span className="s-payment-information-text013">
+                            <span className="s-payment-information-text08">
                               <span>$2700.00</span>
                             </span>
                             <img
@@ -79,7 +79,7 @@ const SOPaymentInformation = (props) => {
                               src="/external/undefinedamounti508-k9xf.svg"
                               className="s-payment-information-undefined-amount01"
                             />
-                            <span className="s-payment-information-text015">
+                            <span className="s-payment-information-text10">
                               <span>$3640.50</span>
                             </span>
                             <img
@@ -102,10 +102,10 @@ const SOPaymentInformation = (props) => {
                               src
                               className="s-payment-information-undefined-amount05"
                             />
-                            <span className="s-payment-information-text017">
+                            <span className="s-payment-information-text12">
                               <span>$3860.00</span>
                             </span>
-                            <span className="s-payment-information-text019">
+                            <span className="s-payment-information-text14">
                               <span>$2900.00</span>
                             </span>
                             <img
@@ -113,7 +113,7 @@ const SOPaymentInformation = (props) => {
                               src
                               className="s-payment-information-undefined-amount06"
                             />
-                            <span className="s-payment-information-text021">
+                            <span className="s-payment-information-text16">
                               <span>$3860.00</span>
                             </span>
                           </div>
@@ -129,7 +129,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-a3ya.svg"
                                 className="s-payment-information-vector01"
                               />
-                              <span className="s-payment-information-text023">
+                              <span className="s-payment-information-text18">
                                 <span>31 Apr - 6 May</span>
                               </span>
                             </div>
@@ -139,7 +139,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-zynu.svg"
                                 className="s-payment-information-vector02"
                               />
-                              <span className="s-payment-information-text025">
+                              <span className="s-payment-information-text20">
                                 <span>7 May - 13 May</span>
                               </span>
                             </div>
@@ -149,7 +149,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-6gdp.svg"
                                 className="s-payment-information-vector03"
                               />
-                              <span className="s-payment-information-text027">
+                              <span className="s-payment-information-text22">
                                 <span>14 May - 20 May</span>
                               </span>
                             </div>
@@ -159,7 +159,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-92a.svg"
                                 className="s-payment-information-vector04"
                               />
-                              <span className="s-payment-information-text029">
+                              <span className="s-payment-information-text24">
                                 <span>21 May - 27 May</span>
                               </span>
                             </div>
@@ -169,7 +169,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-m1ll.svg"
                                 className="s-payment-information-vector05"
                               />
-                              <span className="s-payment-information-text031">
+                              <span className="s-payment-information-text26">
                                 <span>28 May - 3 Jun</span>
                               </span>
                             </div>
@@ -186,7 +186,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-vh8.svg"
                                 className="s-payment-information-vector07"
                               />
-                              <span className="s-payment-information-text033">
+                              <span className="s-payment-information-text28">
                                 0
                               </span>
                             </div>
@@ -196,7 +196,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-qqga.svg"
                                 className="s-payment-information-vector08"
                               />
-                              <span className="s-payment-information-text034">
+                              <span className="s-payment-information-text29">
                                 <span>500</span>
                               </span>
                             </div>
@@ -206,7 +206,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-rv2j.svg"
                                 className="s-payment-information-vector09"
                               />
-                              <span className="s-payment-information-text036">
+                              <span className="s-payment-information-text31">
                                 <span>1000</span>
                               </span>
                             </div>
@@ -216,7 +216,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-3kr.svg"
                                 className="s-payment-information-vector10"
                               />
-                              <span className="s-payment-information-text038">
+                              <span className="s-payment-information-text33">
                                 <span>1500</span>
                               </span>
                             </div>
@@ -226,7 +226,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-hzih.svg"
                                 className="s-payment-information-vector11"
                               />
-                              <span className="s-payment-information-text040">
+                              <span className="s-payment-information-text35">
                                 <span>2000</span>
                               </span>
                             </div>
@@ -236,7 +236,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-mjl.svg"
                                 className="s-payment-information-vector12"
                               />
-                              <span className="s-payment-information-text042">
+                              <span className="s-payment-information-text37">
                                 <span>2500</span>
                               </span>
                             </div>
@@ -246,7 +246,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-4q9.svg"
                                 className="s-payment-information-vector13"
                               />
-                              <span className="s-payment-information-text044">
+                              <span className="s-payment-information-text39">
                                 <span>3000</span>
                               </span>
                             </div>
@@ -256,7 +256,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-hn8d.svg"
                                 className="s-payment-information-vector14"
                               />
-                              <span className="s-payment-information-text046">
+                              <span className="s-payment-information-text41">
                                 <span>3500</span>
                               </span>
                             </div>
@@ -266,7 +266,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori508-omm.svg"
                                 className="s-payment-information-vector15"
                               />
-                              <span className="s-payment-information-text048">
+                              <span className="s-payment-information-text43">
                                 <span>4000</span>
                               </span>
                             </div>
@@ -282,7 +282,7 @@ const SOPaymentInformation = (props) => {
                         src
                         className="s-payment-information-rectangle15"
                       />
-                      <span className="s-payment-information-text050">
+                      <span className="s-payment-information-text45">
                         <span>Past weeks spendings</span>
                       </span>
                     </div>
@@ -292,7 +292,7 @@ const SOPaymentInformation = (props) => {
                         src
                         className="s-payment-information-rectangle151"
                       />
-                      <span className="s-payment-information-text052">
+                      <span className="s-payment-information-text47">
                         <span>Current week spending</span>
                       </span>
                     </div>
@@ -302,51 +302,49 @@ const SOPaymentInformation = (props) => {
             </div>
             <div className="s-payment-information-frame6108">
               <div className="s-payment-information-frame6064">
-                <span className="s-payment-information-text054 OverlineL">
+                <span className="s-payment-information-text49 OverlineL overlineL">
                   Weeks payments details
                 </span>
                 <div className="s-payment-information-frame6063">
                   <div className="s-payment-information-weeks-resume-list-item">
                     <div className="s-payment-information-frame6062">
-                      <span className="s-payment-information-text055 Body1">
-                        <span>May 14 - 20</span>
+                      <span className="s-payment-information-text50 Body1 body-1">
+                        May 14 - 20
                       </span>
                       <div className="s-payment-information-frame6071">
-                        <span className="s-payment-information-text057 Body1">
-                          <span>20 Games</span>
+                        <span className="s-payment-information-text51 Body1 body-1">
+                          20 Games
                         </span>
-                        <span className="s-payment-information-text059">
-                          <span>$3860.00</span>
-                        </span>
+                        <span className="paymentsAmount">$3860.00</span>
                       </div>
                     </div>
                   </div>
                   <div className="s-payment-information-weeks-resume-list-item1">
                     <div className="s-payment-information-frame60621">
-                      <span className="s-payment-information-text061 Body1">
-                        <span>May 7 - 13</span>
+                      <span className="s-payment-information-text53 Body1 body-1">
+                        May 7 - 13
                       </span>
                       <div className="s-payment-information-frame60711">
-                        <span className="s-payment-information-text063 Body1">
-                          <span>17 Games</span>
+                        <span className="s-payment-information-text54 Body1 body-1">
+                          17 Games
                         </span>
-                        <span className="s-payment-information-text065">
-                          <span>$3640.50</span>
+                        <span className="s-payment-information-text55 paymentsAmount">
+                          $3640.50
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="s-payment-information-weeks-resume-list-item2">
                     <div className="s-payment-information-frame60622">
-                      <span className="s-payment-information-text067 Body1">
-                        <span>May 1 - 6</span>
+                      <span className="s-payment-information-text56 Body1 body-1">
+                        May 1 - 6
                       </span>
                       <div className="s-payment-information-frame60712">
-                        <span className="s-payment-information-text069 Body1">
-                          <span>11 Games</span>
+                        <span className="s-payment-information-text57 Body1 body-1">
+                          11 Games
                         </span>
-                        <span className="s-payment-information-text071">
-                          <span>$2700.00</span>
+                        <span className="s-payment-information-text58 paymentsAmount">
+                          $2700.00
                         </span>
                       </div>
                     </div>
@@ -354,7 +352,7 @@ const SOPaymentInformation = (props) => {
                 </div>
               </div>
               <div className="s-payment-information-frame60351">
-                <span className="s-payment-information-text073 OverlineL">
+                <span className="s-payment-information-text59 OverlineL overlineL">
                   Forecasted weeks spendings
                 </span>
                 <div className="s-payment-information-earnings-chart1">
@@ -373,7 +371,7 @@ const SOPaymentInformation = (props) => {
                               src="/external/undefinedamounti765-r903.svg"
                               className="s-payment-information-undefined-amount07"
                             />
-                            <span className="s-payment-information-text074">
+                            <span className="s-payment-information-text60">
                               <span>$2700.00</span>
                             </span>
                             <img
@@ -381,7 +379,7 @@ const SOPaymentInformation = (props) => {
                               src="/external/undefinedamounti765-rxrj.svg"
                               className="s-payment-information-undefined-amount08"
                             />
-                            <span className="s-payment-information-text076">
+                            <span className="s-payment-information-text62">
                               <span>$3640.50</span>
                             </span>
                             <img
@@ -404,10 +402,10 @@ const SOPaymentInformation = (props) => {
                               src
                               className="s-payment-information-undefined-amount12"
                             />
-                            <span className="s-payment-information-text078">
+                            <span className="s-payment-information-text64">
                               <span>$3860.00</span>
                             </span>
-                            <span className="s-payment-information-text080">
+                            <span className="s-payment-information-text66">
                               <span>$2900.00</span>
                             </span>
                             <img
@@ -415,7 +413,7 @@ const SOPaymentInformation = (props) => {
                               src
                               className="s-payment-information-undefined-amount13"
                             />
-                            <span className="s-payment-information-text082">
+                            <span className="s-payment-information-text68">
                               <span>$3860.00</span>
                             </span>
                           </div>
@@ -431,7 +429,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-zspp.svg"
                                 className="s-payment-information-vector17"
                               />
-                              <span className="s-payment-information-text084">
+                              <span className="s-payment-information-text70">
                                 <span>4 Jun - 10 Jun</span>
                               </span>
                             </div>
@@ -441,7 +439,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-3q9.svg"
                                 className="s-payment-information-vector18"
                               />
-                              <span className="s-payment-information-text086">
+                              <span className="s-payment-information-text72">
                                 <span>11 Jun - 17 Jun</span>
                               </span>
                             </div>
@@ -451,7 +449,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-knfb.svg"
                                 className="s-payment-information-vector19"
                               />
-                              <span className="s-payment-information-text088">
+                              <span className="s-payment-information-text74">
                                 <span>8 Jun - 24 Jun</span>
                               </span>
                             </div>
@@ -461,7 +459,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-9tru.svg"
                                 className="s-payment-information-vector20"
                               />
-                              <span className="s-payment-information-text090">
+                              <span className="s-payment-information-text76">
                                 <span>25 Jun - 1 Jul May</span>
                               </span>
                             </div>
@@ -471,7 +469,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-6mek.svg"
                                 className="s-payment-information-vector21"
                               />
-                              <span className="s-payment-information-text092">
+                              <span className="s-payment-information-text78">
                                 <span>2 Jul - 8 Jul</span>
                               </span>
                             </div>
@@ -488,7 +486,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-frs.svg"
                                 className="s-payment-information-vector23"
                               />
-                              <span className="s-payment-information-text094">
+                              <span className="s-payment-information-text80">
                                 0
                               </span>
                             </div>
@@ -498,7 +496,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-v16.svg"
                                 className="s-payment-information-vector24"
                               />
-                              <span className="s-payment-information-text095">
+                              <span className="s-payment-information-text81">
                                 <span>500</span>
                               </span>
                             </div>
@@ -508,7 +506,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-92fg.svg"
                                 className="s-payment-information-vector25"
                               />
-                              <span className="s-payment-information-text097">
+                              <span className="s-payment-information-text83">
                                 <span>1000</span>
                               </span>
                             </div>
@@ -518,7 +516,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-b6l8.svg"
                                 className="s-payment-information-vector26"
                               />
-                              <span className="s-payment-information-text099">
+                              <span className="s-payment-information-text85">
                                 <span>1500</span>
                               </span>
                             </div>
@@ -528,7 +526,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-np1l.svg"
                                 className="s-payment-information-vector27"
                               />
-                              <span className="s-payment-information-text101">
+                              <span className="s-payment-information-text87">
                                 <span>2000</span>
                               </span>
                             </div>
@@ -538,7 +536,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-c7uc.svg"
                                 className="s-payment-information-vector28"
                               />
-                              <span className="s-payment-information-text103">
+                              <span className="s-payment-information-text89">
                                 <span>2500</span>
                               </span>
                             </div>
@@ -548,7 +546,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-iyir.svg"
                                 className="s-payment-information-vector29"
                               />
-                              <span className="s-payment-information-text105">
+                              <span className="s-payment-information-text91">
                                 <span>3000</span>
                               </span>
                             </div>
@@ -558,7 +556,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-d6vm.svg"
                                 className="s-payment-information-vector30"
                               />
-                              <span className="s-payment-information-text107">
+                              <span className="s-payment-information-text93">
                                 <span>3500</span>
                               </span>
                             </div>
@@ -568,7 +566,7 @@ const SOPaymentInformation = (props) => {
                                 src="/external/vectori765-yt3a.svg"
                                 className="s-payment-information-vector31"
                               />
-                              <span className="s-payment-information-text109">
+                              <span className="s-payment-information-text95">
                                 <span>4000</span>
                               </span>
                             </div>
@@ -584,7 +582,7 @@ const SOPaymentInformation = (props) => {
                         src
                         className="s-payment-information-rectangle152"
                       />
-                      <span className="s-payment-information-text111">
+                      <span className="s-payment-information-text97">
                         <span>Forecasted spendings</span>
                       </span>
                     </div>

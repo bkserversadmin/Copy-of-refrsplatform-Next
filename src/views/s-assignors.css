@@ -9,7 +9,7 @@
 .s-assignors-withoutpairedassignor {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
-  height: 1024px;
+  height: 100vh;
   display: flex;
   position: relative;
   align-self: center;
@@ -21,20 +21,11 @@
 }
 .s-assignors-content-container {
   gap: var(--dl-space-space-twounits);
-  width: 1204px;
-  display: flex;
-  max-width: 980px;
-  margin-top: 50px;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.s-assignors-top-container {
-  gap: 40px;
   width: 100%;
   display: flex;
-  align-self: flex-start;
+  max-width: 1170px;
+  margin-top: 50px;
   align-items: flex-start;
-  flex-shrink: 0;
   flex-direction: column;
 }
 .s-assignors-header-container {
@@ -51,43 +42,12 @@
   text-align: left;
   line-height: normal;
 }
-.s-assignors-search {
-  gap: 12px;
-  width: 100%;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.s-assignors-text {
-  color: var(--dl-color-grey-grey500);
-  height: auto;
-  font-size: 12px;
-  font-style: normal;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 400px;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
 .s-assignors-search-fields {
   gap: 16px;
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
-}
-.s-assignors-search-bar {
-  gap: 16px;
-  height: 44px;
-  display: flex;
-  padding: 15px 16px 15px 12px;
-  flex-grow: 1;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 1);
 }
 .s-assignors-icon {
   width: 16px;
@@ -101,18 +61,6 @@
   padding-top: 10px;
   border-width: 0px;
   padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-}
-.s-assignors-select {
-  color: #A3A3A3;
-  width: 170px;
-  height: 44px;
-  font-size: 14px;
-  font-weight: 400;
-  padding-top: 10px;
-  padding-left: 16px;
-  border-radius: var(--dl-radius-radius-radius8);
   padding-right: 16px;
   padding-bottom: 10px;
 }
@@ -172,14 +120,9 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s-assignors-text2 {
+.s-assignors-text1 {
   color: var(--dl-color-grey-grey800);
-  font-size: 12px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 .s-assignors-container3 {
   flex: 0 0 auto;
@@ -199,14 +142,9 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s-assignors-text5 {
+.s-assignors-text4 {
   color: var(--dl-color-grey-grey800);
-  font-size: 12px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 .s-assignors-container5 {
   gap: var(--dl-space-space-halfunit);

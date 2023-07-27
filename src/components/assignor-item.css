@@ -6,33 +6,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.assignor-item-assignor-list-item {
-  gap: 32px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 24px 16px;
-  align-self: stretch;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: rgba(235, 235, 235, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  padding-right: 24px 16px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.assignor-item-userinfo {
-  gap: 12px;
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-}
-.assignor-item-profile-container {
-  gap: 8px;
-  display: flex;
-  align-items: center;
-}
 .assignor-item-avatar {
   width: 40px;
   height: 40px;
@@ -41,43 +14,11 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.assignor-item-ellipse36 {
-  top: 0px;
-  left: 0px;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-}
 .assignor-item-info-container {
   gap: 4px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.assignor-item-name {
-  color: var(--dl-color-yellow-yellow900);
-  height: auto;
-  text-align: left;
-  line-height: 16px;
-}
-.assignor-item-sport-org-name {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  opacity: 0.70;
-  text-align: left;
-  line-height: 16px;
-}
-.assignor-item-contact-info-container {
-  gap: 48px;
-  display: flex;
-  align-items: flex-start;
-}
-.assignor-item-phone {
-  gap: 8px;
-  width: 160px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
 }
 .assignor-item-phone-icon {
   width: 20px;
@@ -122,22 +63,6 @@
   height: auto;
   text-align: left;
   line-height: 14px;
-}
-.assignor-item-assignor-list-item1 {
-  gap: 32px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 24px 16px;
-  align-self: stretch;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: var(--dl-color-yellow-yellow300);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  padding-right: 24px 16px;
-  background-color: var(--dl-color-yellow-yellow100);
 }
 .assignor-item-userinfo1 {
   gap: 12px;

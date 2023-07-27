@@ -73,19 +73,36 @@
   padding: 0 0 0 16px;
   align-items: flex-start;
 }
-.profile-personal-info-text02 {
-  color: var(--dl-color-yellow-yellow700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.profile-personal-info-general-text-field01 {
+.profile-personal-info-general-text-field1 {
   gap: 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-personal-info-label-container01 {
+.profile-personal-info-label-container1 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.profile-personal-info-text03 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.profile-personal-info-frame5984 {
+  gap: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.profile-personal-info-general-text-field2 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-personal-info-label-container2 {
   gap: 10px;
   display: flex;
   padding: 0 0 0 16px;
@@ -97,18 +114,36 @@
   text-align: left;
   line-height: normal;
 }
-.profile-personal-info-frame5984 {
-  gap: 30px;
-  display: flex;
-  align-items: flex-start;
-}
-.profile-personal-info-general-text-field02 {
+.profile-personal-info-general-text-field3 {
   gap: 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-personal-info-label-container02 {
+.profile-personal-info-label-container3 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.profile-personal-info-text05 {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.profile-personal-info-frame59851 {
+  gap: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.profile-personal-info-general-text-field4 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-personal-info-label-container4 {
   gap: 10px;
   display: flex;
   padding: 0 0 0 16px;
@@ -120,60 +155,19 @@
   text-align: left;
   line-height: normal;
 }
-.profile-personal-info-general-text-field03 {
+.profile-personal-info-general-text-field5 {
   gap: 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-personal-info-label-container03 {
+.profile-personal-info-label-container5 {
   gap: 10px;
   display: flex;
   padding: 0 0 0 16px;
   align-items: flex-start;
 }
-.profile-personal-info-text08 {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.profile-personal-info-frame59851 {
-  gap: 30px;
-  display: flex;
-  align-items: flex-start;
-}
-.profile-personal-info-general-text-field04 {
-  gap: 8px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container04 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-text10 {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.profile-personal-info-general-text-field05 {
-  gap: 8px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container05 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-text12 {
+.profile-personal-info-text07 {
   color: var(--dl-color-grey-grey700);
   height: auto;
   text-align: left;
@@ -188,7 +182,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.profile-personal-info-text14 {
+.profile-personal-info-text08 {
   color: var(--dl-color-yellow-yellow900);
   height: auto;
   text-align: left;
@@ -205,37 +199,37 @@
   display: flex;
   align-items: flex-start;
 }
-.profile-personal-info-general-text-field06 {
+.profile-personal-info-general-text-field6 {
   gap: 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-personal-info-label-container06 {
+.profile-personal-info-label-container6 {
   gap: 10px;
   display: flex;
   padding: 0 0 0 16px;
   align-items: flex-start;
 }
-.profile-personal-info-text16 {
+.profile-personal-info-text09 {
   color: var(--dl-color-grey-grey700);
   height: auto;
   text-align: left;
   line-height: normal;
 }
-.profile-personal-info-general-text-field07 {
+.profile-personal-info-general-text-field7 {
   gap: 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.profile-personal-info-label-container07 {
+.profile-personal-info-label-container7 {
   gap: 10px;
   display: flex;
   padding: 0 0 0 16px;
   align-items: flex-start;
 }
-.profile-personal-info-text18 {
+.profile-personal-info-text10 {
   color: var(--dl-color-grey-grey700);
   height: auto;
   text-align: left;
@@ -256,177 +250,11 @@
   width: 16px;
   height: 16px;
 }
-.profile-personal-info-text20 {
+.profile-personal-info-text11 {
   color: var(--dl-color-yellow-yellow900);
   height: auto;
   text-align: left;
   line-height: 16px;
-}
-.profile-personal-info-form-container1 {
-  gap: 40px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.profile-personal-info-frame59852 {
-  gap: 24px;
-  width: 532.5px;
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.profile-personal-info-text22 {
-  color: var(--dl-color-yellow-yellow900);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.profile-personal-info-frame59832 {
-  gap: 30px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-}
-.profile-personal-info-general-text-field08 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container08 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-organization-text {
-  color: var(--dl-color-yellow-yellow700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.profile-personal-info-general-text-field09 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container09 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-sports-text {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.profile-personal-info-general-text-field10 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container10 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-city-text {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.profile-personal-info-frame59841 {
-  gap: 30px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-}
-.profile-personal-info-general-text-field11 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container11 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-phone-number {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.profile-personal-info-general-text-field12 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container12 {
-  gap: 10px;
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-email {
-  color: var(--dl-color-grey-grey700);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.profile-personal-info-general-text-field13 {
-  gap: 8px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-label-container13 {
-  gap: 10px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  padding: 0 0 0 16px;
-  align-items: flex-start;
-}
-.profile-personal-info-text-block {
-  gap: 16px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.profile-personal-info-about-message {
-  color: var(--dl-color-yellow-yellow900);
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
-.profile-personal-info-textarea {
-  width: 100%;
-  height: 100px;
-  border-color: var(--dl-color-grey-grey500);
 }
 .profile-personal-info-button-container {
   gap: 10px;
@@ -443,9 +271,10 @@
   border-radius: 100px;
   background-color: var(--dl-color-yellow-yellow400);
 }
-.profile-personal-info-text24 {
+.profile-personal-info-text13 {
   color: var(--dl-color-yellow-yellow900);
   height: auto;
   text-align: left;
   line-height: 16px;
 }
+

@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
-import GamesListItem from '../components/games-list-item'
+import GameItem from '../components/game-item'
 import './s-my-games.css'
 
 const SOMyGames = (props) => {
@@ -14,63 +13,40 @@ const SOMyGames = (props) => {
         <title>SOMyGames - exported project</title>
         <meta property="og:title" content="SOMyGames - exported project" />
       </Helmet>
-      <div className="s-my-games-mygames-assigned-games-listview">
+      <div className="s-my-games-my-games">
         <NavBar rootClassName="nav-bar-root-class-name5"></NavBar>
         <div className="s-my-games-container1">
-          <div className="s-my-games-container2">
-            <div className="s-my-games-frame5988">
-              <span className="s-my-games-text Headine1">My games</span>
-              <div className="s-my-games-container3">
-                <select className="s-my-games-select Body1">
-                  <option value="Assigned games" selected>
-                    Assigned games
-                  </option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Available games">Available games</option>
-                  <option value="Option 2">Option 2</option>
-                  <option value="Option 3">Option 3</option>
-                </select>
-              </div>
-            </div>
-            <Link to="/calendar-view" className="s-my-games-button">
-              <img
-                alt="IconI294"
-                src="/external/iconi294-mfo.svg"
-                className="s-my-games-icon"
-              />
-              <span className="s-my-games-text01 ButtonL">
-                <span>Calendar view</span>
-              </span>
-            </Link>
-          </div>
-          <div className="s-my-games-search">
-            <span className="s-my-games-text03">search games</span>
-            <div className="s-my-games-search-fields">
-              <span className="s-my-games-text04 Body2">Filter by dates:</span>
-              <div className="s-my-games-container4">
-                <span className="s-my-games-text05">from</span>
+          <span className="s-my-games-my-games-title Headine1 page-title">
+            My games
+          </span>
+          <div className="s-my-games-search searchContainer">
+            <span className="s-my-games-text OverlineL overlineL">
+              search games
+            </span>
+            <div className="searchFields">
+              <span className="Body2 filterByDates">Filter by dates:</span>
+              <div className="dateFilterContainer">
+                <span className="s-my-games-text02 OverlineS overlineS">
+                  from
+                </span>
                 <input
-                  type="text"
+                  type="date"
                   placeholder="Jan 1"
-                  className="s-my-games-textinput input"
+                  className="input dateFromInput"
                 />
               </div>
-              <div className="s-my-games-container5">
-                <span className="s-my-games-text06">to</span>
+              <div className="s-my-games-to-container dateFilterContainer">
+                <span className="s-my-games-text03 OverlineS overlineS">
+                  to
+                </span>
                 <input
-                  type="text"
+                  type="date"
                   placeholder="Mar 1"
-                  className="s-my-games-textinput1 input"
+                  className="input dateToInput"
                 />
               </div>
-              <div className="s-my-games-container6">
-                <img
-                  alt="Line5I1077"
-                  src="/external/line5i1077-miia.svg"
-                  className="s-my-games-line5"
-                />
-              </div>
-              <select className="s-my-games-select1">
+              <div className="filtersSeparator"></div>
+              <select className="sportFilter">
                 <option value="Sport" selected>
                   Sport
                 </option>
@@ -82,7 +58,7 @@ const SOMyGames = (props) => {
                 <option value="Option 3">Option 3</option>
                 <option value="Option 3">Option 3</option>
               </select>
-              <select className="s-my-games-select2">
+              <select className="gameLevelFilter">
                 <option value="Game Level" selected>
                   Game Level
                 </option>
@@ -98,7 +74,7 @@ const SOMyGames = (props) => {
                 <option value="Option 3">Option 3</option>
                 <option value="Option 3">Option 3</option>
               </select>
-              <select className="s-my-games-select3">
+              <select className="gameStatusFilter">
                 <option value="Game Status" selected>
                   Game Status
                 </option>
@@ -111,76 +87,61 @@ const SOMyGames = (props) => {
                 <option value="Option 3">Option 3</option>
                 <option value="Option 3">Option 3</option>
               </select>
-              <img
-                alt="Line5I1077"
-                src="/external/line5i1077-eovbj.svg"
-                className="s-my-games-line51"
-              />
-              <img
-                alt="Line5I1077"
-                src="/external/line5i1077-y4gf.svg"
-                className="s-my-games-line52"
-              />
-              <img
-                alt="Line5I1077"
-                src="/external/line5i1077-pnk.svg"
-                className="s-my-games-line53"
-              />
             </div>
           </div>
-          <div className="s-my-games-frame6020">
-            <span className="s-my-games-text07 Headine3">
-              <span>Upcoming game schedule</span>
+          <div className="s-my-games-upcoming-games-schedule">
+            <span className="s-my-games-upcoming-game-schedule Headine3 column-title">
+              Upcoming game schedule
             </span>
-            <div className="s-my-games-frame6019">
+            <div className="gamesListContainer">
               <div className="s-my-games-games-list-header">
                 <div className="s-my-games-teams-container">
-                  <span className="s-my-games-text09 OverlineL">
+                  <span className="s-my-games-text04 OverlineL">
                     <span>Teams</span>
                   </span>
                 </div>
                 <div className="s-my-games-id-container">
-                  <span className="s-my-games-text11 OverlineL">id</span>
+                  <span className="s-my-games-text06 OverlineL">id</span>
                 </div>
                 <div className="s-my-games-frame116">
-                  <span className="s-my-games-text12 OverlineL">
+                  <span className="s-my-games-text07 OverlineL">
                     <span>Level</span>
                   </span>
                 </div>
                 <div className="s-my-games-frame121">
-                  <span className="s-my-games-text14 OverlineL">
+                  <span className="s-my-games-text09 OverlineL">
                     <span>Date &amp; Time</span>
                   </span>
                 </div>
                 <div className="s-my-games-frame117">
-                  <span className="s-my-games-text16 OverlineL">
+                  <span className="s-my-games-text11 OverlineL">
                     <span>Address</span>
                   </span>
                 </div>
                 <div className="s-my-games-frame40">
-                  <span className="s-my-games-text18 OverlineL">
+                  <span className="s-my-games-text13 OverlineL">
                     <span>Sport Org</span>
                   </span>
                 </div>
                 <div className="s-my-games-frame401">
-                  <span className="s-my-games-text20 OverlineL">status</span>
+                  <span className="s-my-games-text15 OverlineL">status</span>
                 </div>
                 <div className="s-my-games-frame118">
-                  <span className="s-my-games-text21 OverlineL">
+                  <span className="s-my-games-text16 OverlineL">
                     <span>Referees</span>
                   </span>
                 </div>
               </div>
               <div className="s-my-games-games-list">
                 <div className="s-my-games-games-list-inner">
-                  <GamesListItem GameName="knfjslkgnerlge"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name29"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name30"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name31"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name32"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name33"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name34"></GamesListItem>
-                  <GamesListItem rootClassName="games-list-item-root-class-name35"></GamesListItem>
+                  <GameItem GameName="knfjslkgnerlge"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name29"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name30"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name31"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name32"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name33"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name34"></GameItem>
+                  <GameItem rootClassName="game-item-root-class-name35"></GameItem>
                 </div>
               </div>
             </div>

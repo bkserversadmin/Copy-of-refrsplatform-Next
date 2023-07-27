@@ -1,0 +1,211 @@
+.s-profile-info-profile-personal-info {
+  gap: 48px;
+  width: 1170px;
+  display: flex;
+  padding: 32px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 235, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-white);
+}
+.s-profile-info-tabs {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.s-profile-info-profile-perosonal-info {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.s-profile-info-form {
+  gap: 24px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.s-profile-info-container {
+  gap: 24px;
+  width: 532.5px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s-profile-info-form-row {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.s-profile-info-general-text-field {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-organization-text {
+  color: var(--dl-color-yellow-yellow700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.s-profile-info-general-text-field1 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container1 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-sports-text {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.s-profile-info-general-text-field2 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container2 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-city-text {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.s-profile-info-form-row1 {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.s-profile-info-general-text-field3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container3 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-phone-number {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.s-profile-info-general-text-field4 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container4 {
+  gap: 10px;
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-email {
+  color: var(--dl-color-grey-grey700);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.s-profile-info-general-text-field5 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-label-container5 {
+  gap: 10px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  padding: 0 0 0 16px;
+  align-items: flex-start;
+}
+.s-profile-info-text-block {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s-profile-info-about-message {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.s-profile-info-textarea {
+  width: 100%;
+  height: 100px;
+  border-color: var(--dl-color-grey-grey500);
+}
+.s-profile-info-button-container {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.s-profile-info-button {
+  gap: 12px;
+  width: auto;
+  display: flex;
+  padding: 14px 24px;
+  align-items: flex-start;
+  border-radius: 100px;
+  background-color: var(--dl-color-yellow-yellow400);
+}
+.s-profile-info-text1 {
+  color: var(--dl-color-yellow-yellow900);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}

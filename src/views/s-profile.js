@@ -3,7 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
-import ProfilePersonalInfo from '../components/profile-personal-info'
+import SOProfileInfo from '../components/s-profile-info'
 import './s-profile.css'
 
 const SOProfile = (props) => {
@@ -13,40 +13,38 @@ const SOProfile = (props) => {
         <title>SOProfile - exported project</title>
         <meta property="og:title" content="SOProfile - exported project" />
       </Helmet>
-      <div className="s-profile-container1">
-        <NavBar rootClassName="nav-bar-root-class-name13"></NavBar>
-        <div className="s-profile-container2">
-          <div className="s-profile-resume-section">
-            <div className="s-profile-frame120">
-              <div className="s-profile-avatar">
+      <NavBar rootClassName="nav-bar-root-class-name13"></NavBar>
+      <div className="container">
+        <div className="inner-container">
+          <div className="resumeSection">
+            <div className="about-container">
+              <div className="avatar-container">
                 <img
                   alt="Ellipse35I292"
                   src="/avatarorg150-200h.png"
-                  className="s-profile-ellipse35"
+                  className="avatar-photo"
                 />
               </div>
-              <div className="s-profile-frame119">
-                <span className="s-profile-text Headine2">
+              <div className="s-profile-name-and-bio nameAndBio">
+                <span className="Headine2 sportOrg-name">
                   National Hockey League
                 </span>
-                <span className="s-profile-text1 Body3">
-                  <span>
-                    Porttitor nisl nec felis nulla eu vivamus proin massa. Massa
-                    malesuada facilisis molestie vel elit.
-                  </span>
+                <span className="Body3 sportOrg-bio">
+                  Porttitor nisl nec felis nulla eu vivamus proin massa. Massa
+                  malesuada facilisis molestie vel elit.
                 </span>
               </div>
             </div>
             <div className="s-profile-frame126">
               <div className="s-profile-frame42">
-                <span className="s-profile-text3 Body3">
+                <span className="s-profile-text2 Body3">
                   Total created games
                 </span>
-                <span className="s-profile-text4 Headine1">14</span>
+                <span className="s-profile-text3 Headine1">14</span>
               </div>
             </div>
           </div>
-          <ProfilePersonalInfo></ProfilePersonalInfo>
+          <SOProfileInfo></SOProfileInfo>
         </div>
       </div>
     </div>
